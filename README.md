@@ -1,3 +1,0 @@
-# GMS's Notes
-
-# NexT
