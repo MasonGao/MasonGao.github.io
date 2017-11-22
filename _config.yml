@@ -5,8 +5,8 @@
 
 # Site
 title: GMS's Notes
-subtitle:222
-description:3333
+subtitle: 222
+description: 3333
 author: Mason Gao
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: en
@@ -108,7 +108,7 @@ seo: false
 
 # If true, will add site-subtitle to index page, added in jekyll config.
 # subtitle: Subtitle
-index_with_subtitle: false
+index_with_subtitle: true
 
 # ---------------------------------------------------------------
 # Menu Settings
