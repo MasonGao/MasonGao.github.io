@@ -5,8 +5,8 @@
 
 # Site
 title: GMS's Notes
-subtitle: 222
-description: 3333
+subtitle:222
+description:3333
 author: Mason Gao
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: en
@@ -14,7 +14,7 @@ date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url: 
+url:v
 baseurl:
 permalink: pretty
 
@@ -121,7 +121,7 @@ menu:
   about: /about/
   archives: /archives/
   tags: /tags/
-  sitemap: /sitemap.xml
+  #sitemap: /sitemap.xml
   #commonweal: /404.html
 
 
@@ -255,8 +255,8 @@ toc:
 
 sidebar:
   # Sidebar Position, available value: left | right
-  position: left
-  #position: right
+  #position: left
+  position: right
 
   # Sidebar Display, available value:
   #  - post    expand on posts automatically. Default.
