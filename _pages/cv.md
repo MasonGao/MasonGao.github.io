@@ -8,7 +8,7 @@ permalink: /cv/
 
 **Lecturer**  
 School of Physics, East China University of Science and Technology (ECUST)  
-Office: Room 315, School of Physics, ECUST (Xuhui Campus)  
+Office: Room 315, School of Physics, ECUST (Xuhui Campus), Shanghai, China  
 Email: msgao@ecust.edu.cn
 
 ---
@@ -78,11 +78,4 @@ Email: msgao@ecust.edu.cn
 - 2023: China Postdoctoral Science Foundation (中国博士后科学基金第74批面上资助)
 - 2023: Shanghai Super Postdoctoral Incentive Program
 
----
-
-## Contact
-
-**Email:** msgao@ecust.edu.cn  
-**Office:** Room 315, School of Physics, ECUST (Xuhui Campus)  
-**Address:** East China University of Science and Technology, Xuhui Campus, Shanghai, China
 
