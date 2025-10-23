@@ -24,6 +24,7 @@ To update INSPIRE record IDs:
   <div class="pub-venue"><em>e-Print: <a href="https://arxiv.org/abs/2509.15809" target="_blank">2509.15809</a></em></div>
   <div class="pub-links">
     <a class="bib-btn" onclick="toggleBib('bib-2025-1')">BIB</a>
+    <button class="copy-btn" onclick="copyBibtex('bib-2025-1')" title="Copy BibTeX">📋</button>
   </div>
   <div id="bib-2025-1" class="bibtex" style="display:none;">
     <pre>@article{Gao:2025transversity,
@@ -46,6 +47,7 @@ To update INSPIRE record IDs:
   <div class="pub-venue"><a href="https://doi.org/10.1007/JHEP01(2025)029" target="_blank"><em>JHEP</em> <strong>01</strong>, 029 (2025)</a></div>
   <div class="pub-links">
     <a class="bib-btn" onclick="toggleBib('bib-2025-2')">BIB</a>
+    <button class="copy-btn" onclick="copyBibtex('bib-2025-2')" title="Copy BibTeX">📋</button>
   </div>
   <div id="bib-2025-2" class="bibtex" style="display:none;">
     <pre>@article{Fang:2025jhep,
@@ -69,6 +71,7 @@ To update INSPIRE record IDs:
   <div class="pub-venue"><a href="https://doi.org/10.1007/JHEP10(2023)013" target="_blank"><em>JHEP</em> <strong>10</strong> (2023) 013</a></div>
   <div class="pub-links">
     <a class="bib-btn" onclick="toggleBib('bib-2023-1')">BIB</a>
+    <button class="copy-btn" onclick="copyBibtex('bib-2023-1')" title="Copy BibTeX">📋</button>
   </div>
   <div id="bib-2023-1" class="bibtex" style="display:none;">
     <pre>@article{Gao:2023dijet,
@@ -92,6 +95,7 @@ To update INSPIRE record IDs:
   <div class="pub-venue"><a href="https://doi.org/10.1007/JHEP05(2023)003" target="_blank"><em>JHEP</em> <strong>05</strong> (2023) 003</a></div>
   <div class="pub-links">
     <a class="bib-btn" onclick="toggleBib('bib-2023-2')">BIB</a>
+    <button class="copy-btn" onclick="copyBibtex('bib-2023-2')" title="Copy BibTeX">📋</button>
   </div>
   <div id="bib-2023-2" class="bibtex" style="display:none;">
     <pre>@article{Gao:2023smeft,
@@ -115,6 +119,7 @@ To update INSPIRE record IDs:
   <div class="pub-venue"><a href="https://doi.org/10.1103/PhysRevD.104.053005" target="_blank"><em>Phys. Rev. D</em> <strong>104</strong> (2021) 053005</a></div>
   <div class="pub-links">
     <a class="bib-btn" onclick="toggleBib('bib-2021-1')">BIB</a>
+    <button class="copy-btn" onclick="copyBibtex('bib-2021-1')" title="Copy BibTeX">📋</button>
   </div>
   <div id="bib-2021-1" class="bibtex" style="display:none;">
     <pre>@article{Gao:2021lhec,
@@ -138,6 +143,7 @@ To update INSPIRE record IDs:
   <div class="pub-venue"><a href="https://doi.org/10.1007/JHEP04(2021)054" target="_blank"><em>JHEP</em> <strong>04</strong> (2021) 054</a></div>
   <div class="pub-links">
     <a class="bib-btn" onclick="toggleBib('bib-2021-2')">BIB</a>
+    <button class="copy-btn" onclick="copyBibtex('bib-2021-2')" title="Copy BibTeX">📋</button>
   </div>
   <div id="bib-2021-2" class="bibtex" style="display:none;">
     <pre>@article{Gao:2021topmass,
@@ -162,6 +168,42 @@ function toggleBib(id) {
   } else {
     bib.style.display = "none";
   }
+}
+
+function copyBibtex(id) {
+  var bibElement = document.getElementById(id);
+  var bibText = bibElement.textContent || bibElement.innerText;
+  
+  // Create a temporary textarea element
+  var textarea = document.createElement('textarea');
+  textarea.value = bibText;
+  document.body.appendChild(textarea);
+  
+  // Select and copy the text
+  textarea.select();
+  textarea.setSelectionRange(0, 99999); // For mobile devices
+  
+  try {
+    document.execCommand('copy');
+    
+    // Show feedback
+    var button = event.target;
+    var originalText = button.innerHTML;
+    button.innerHTML = '✓';
+    button.style.backgroundColor = '#28a745';
+    
+    setTimeout(function() {
+      button.innerHTML = originalText;
+      button.style.backgroundColor = '#28a745';
+    }, 1000);
+    
+  } catch (err) {
+    console.error('Failed to copy text: ', err);
+    alert('Failed to copy BibTeX. Please select and copy manually.');
+  }
+  
+  // Remove the temporary element
+  document.body.removeChild(textarea);
 }
 </script>
 
@@ -255,6 +297,26 @@ function toggleBib(id) {
 
 .pub-links a.bib-btn:hover {
   background-color: #5a6268;
+}
+
+.copy-btn {
+  padding: 5px 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 0.5rem;
+}
+
+.copy-btn:hover {
+  background-color: #218838;
+}
+
+.copy-btn:active {
+  background-color: #1e7e34;
 }
 
 
