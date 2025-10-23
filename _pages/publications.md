@@ -12,19 +12,11 @@ permalink: /publications/
 <div class="publication">
   <div class="pub-title">Accessing nucleon transversity with one-point energy correlators</div>
   <div class="pub-authors"><span class="author-self">M. S. Gao</span>, Z. B. Kang, W. C. Li, D. Y. Shao</div>
-  <div class="pub-venue">
-    <span class="venue-badge">arXiv</span>
-    <em>e-Print: 2509.15809</em>
-  </div>
+  <div class="pub-venue"><em>e-Print: <a href="https://arxiv.org/abs/2509.15809" target="_blank">2509.15809</a></em></div>
   <div class="pub-links">
     <a class="bib-btn" onclick="toggleBib('bib-2025-1')">BIB</a>
-    <a href="https://arxiv.org/abs/2509.15809" target="_blank">arXiv</a>
-    <div class="inspire-badge">
-      <a href="https://inspirehep.net/literature?q=eprint:2509.15809" target="_blank">
-        <span class="inspire-icon">iN</span>
-        <span class="inspire-text">inspire</span>
-        <span class="inspire-count">0</span>
-      </a>
+    <div class="inspire-count">
+      <a href="https://inspirehep.net/literature?q=eprint:2509.15809" target="_blank">0 citations</a>
     </div>
   </div>
   <div id="bib-2025-1" class="bibtex" style="display:none;">
@@ -42,19 +34,11 @@ permalink: /publications/
 <div class="publication">
   <div class="pub-title">N³LL + O(α<sub>s</sub><sup>2</sup>) predictions of lepton–jet azimuthal distribution in DIS</div>
   <div class="pub-authors">S. Fang, <span class="author-self">M. S. Gao</span>, H. T. Li, D. Y. Shao</div>
-  <div class="pub-venue">
-    <span class="venue-badge">JHEP</span>
-    <em>JHEP</em> <strong>01</strong>, 029 (2025)
-  </div>
+  <div class="pub-venue"><em>JHEP</em> <strong><a href="https://doi.org/10.1007/JHEP01(2025)029" target="_blank">01</a></strong>, 029 (2025)</div>
   <div class="pub-links">
     <a class="bib-btn" onclick="toggleBib('bib-2025-2')">BIB</a>
-    <a href="https://doi.org/10.1007/JHEP01(2025)029" target="_blank">DOI</a>
-    <div class="inspire-badge">
-      <a href="https://inspirehep.net/literature?q=doi:10.1007/JHEP01(2025)029" target="_blank">
-        <span class="inspire-icon">iN</span>
-        <span class="inspire-text">inspire</span>
-        <span class="inspire-count">0</span>
-      </a>
+    <div class="inspire-count">
+      <a href="https://inspirehep.net/literature?q=doi:10.1007/JHEP01(2025)029" target="_blank">0 citations</a>
     </div>
   </div>
   <div id="bib-2025-2" class="bibtex" style="display:none;">
@@ -75,19 +59,11 @@ permalink: /publications/
 <div class="publication">
   <div class="pub-title">QCD resummation of dijet azimuthal decorrelations in <em>pp</em> and <em>pA</em></div>
   <div class="pub-authors"><span class="author-self">M. S. Gao</span>, Z. B. Kang, D. Y. Shao, J. Terry, C. Zhang</div>
-  <div class="pub-venue">
-    <span class="venue-badge">JHEP</span>
-    <em>JHEP</em> <strong>10</strong> (2023) 013
-  </div>
+  <div class="pub-venue"><em>JHEP</em> <strong><a href="https://doi.org/10.1007/JHEP10(2023)013" target="_blank">10</a></strong> (2023) 013</div>
   <div class="pub-links">
     <a class="bib-btn" onclick="toggleBib('bib-2023-1')">BIB</a>
-    <a href="https://doi.org/10.1007/JHEP10(2023)013" target="_blank">DOI</a>
-    <div class="inspire-badge">
-      <a href="https://inspirehep.net/literature?q=doi:10.1007/JHEP10(2023)013" target="_blank">
-        <span class="inspire-icon">iN</span>
-        <span class="inspire-text">inspire</span>
-        <span class="inspire-count">16</span>
-      </a>
+    <div class="inspire-count">
+      <a href="https://inspirehep.net/literature?q=doi:10.1007/JHEP10(2023)013" target="_blank">16 citations</a>
     </div>
   </div>
   <div id="bib-2023-1" class="bibtex" style="display:none;">
@@ -106,19 +82,11 @@ permalink: /publications/
 <div class="publication">
   <div class="pub-title">Simultaneous CTEQ-TEA extraction of PDFs and SMEFT parameters from jet and <em>tt̄</em> data</div>
   <div class="pub-authors">J. Gao, <span class="author-self">M. Gao</span>, T. J. Hobbs, D. Liu, X. Shen</div>
-  <div class="pub-venue">
-    <span class="venue-badge">JHEP</span>
-    <em>JHEP</em> <strong>05</strong> (2023) 003
-  </div>
+  <div class="pub-venue"><em>JHEP</em> <strong><a href="https://doi.org/10.1007/JHEP05(2023)003" target="_blank">05</a></strong> (2023) 003</div>
   <div class="pub-links">
     <a class="bib-btn" onclick="toggleBib('bib-2023-2')">BIB</a>
-    <a href="https://doi.org/10.1007/JHEP05(2023)003" target="_blank">DOI</a>
-    <div class="inspire-badge">
-      <a href="https://inspirehep.net/literature?q=doi:10.1007/JHEP05(2023)003" target="_blank">
-        <span class="inspire-icon">iN</span>
-        <span class="inspire-text">inspire</span>
-        <span class="inspire-count">39</span>
-      </a>
+    <div class="inspire-count">
+      <a href="https://inspirehep.net/literature?q=doi:10.1007/JHEP05(2023)003" target="_blank">39 citations</a>
     </div>
   </div>
   <div id="bib-2023-2" class="bibtex" style="display:none;">
@@ -139,19 +107,11 @@ permalink: /publications/
 <div class="publication">
   <div class="pub-title">Differential distributions for single top-quark production at the LHeC</div>
   <div class="pub-authors"><span class="author-self">M. S. Gao</span>, J. Gao</div>
-  <div class="pub-venue">
-    <span class="venue-badge">Phys. Rev. D</span>
-    <em>Phys. Rev. D</em> <strong>104</strong> (2021) 053005
-  </div>
+  <div class="pub-venue"><em>Phys. Rev. D</em> <strong><a href="https://doi.org/10.1103/PhysRevD.104.053005" target="_blank">104</a></strong> (2021) 053005</div>
   <div class="pub-links">
     <a class="bib-btn" onclick="toggleBib('bib-2021-1')">BIB</a>
-    <a href="https://doi.org/10.1103/PhysRevD.104.053005" target="_blank">DOI</a>
-    <div class="inspire-badge">
-      <a href="https://inspirehep.net/literature?q=doi:10.1103/PhysRevD.104.053005" target="_blank">
-        <span class="inspire-icon">iN</span>
-        <span class="inspire-text">inspire</span>
-        <span class="inspire-count">12</span>
-      </a>
+    <div class="inspire-count">
+      <a href="https://inspirehep.net/literature?q=doi:10.1103/PhysRevD.104.053005" target="_blank">12 citations</a>
     </div>
   </div>
   <div id="bib-2021-1" class="bibtex" style="display:none;">
@@ -170,19 +130,11 @@ permalink: /publications/
 <div class="publication">
   <div class="pub-title">Top-quark mass determination from <em>t</em>-channel single-top at the LHC</div>
   <div class="pub-authors"><span class="author-self">M. S. Gao</span>, S. R. Yuan, J. Gao</div>
-  <div class="pub-venue">
-    <span class="venue-badge">JHEP</span>
-    <em>JHEP</em> <strong>04</strong> (2021) 054
-  </div>
+  <div class="pub-venue"><em>JHEP</em> <strong><a href="https://doi.org/10.1007/JHEP04(2021)054" target="_blank">04</a></strong> (2021) 054</div>
   <div class="pub-links">
     <a class="bib-btn" onclick="toggleBib('bib-2021-2')">BIB</a>
-    <a href="https://doi.org/10.1007/JHEP04(2021)054" target="_blank">DOI</a>
-    <div class="inspire-badge">
-      <a href="https://inspirehep.net/literature?q=doi:10.1007/JHEP04(2021)054" target="_blank">
-        <span class="inspire-icon">iN</span>
-        <span class="inspire-text">inspire</span>
-        <span class="inspire-count">46</span>
-      </a>
+    <div class="inspire-count">
+      <a href="https://inspirehep.net/literature?q=doi:10.1007/JHEP04(2021)054" target="_blank">46 citations</a>
     </div>
   </div>
   <div id="bib-2021-2" class="bibtex" style="display:none;">
@@ -262,21 +214,16 @@ function toggleBib(id) {
   color: #757575;
   margin-bottom: 0.8rem;
   font-size: 0.95rem;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  flex-wrap: wrap;
 }
 
-.venue-badge {
-  display: inline-block;
-  padding: 4px 10px;
-  background-color: #28a745;
-  color: white;
-  border-radius: 3px;
-  font-size: 0.8rem;
+.pub-venue a {
+  color: #2a7ae2;
+  text-decoration: none;
   font-weight: 700;
-  text-transform: uppercase;
+}
+
+.pub-venue a:hover {
+  text-decoration: underline;
 }
 
 .pub-links {
@@ -286,74 +233,35 @@ function toggleBib(id) {
   flex-wrap: wrap;
 }
 
-.pub-links a.bib-btn,
-.pub-links a:not(.inspire-badge a) {
+.pub-links a.bib-btn {
   padding: 5px 14px;
-  background-color: #2a7ae2;
+  background-color: #6c757d;
   color: white !important;
   border-radius: 4px;
   font-size: 0.85rem;
   text-decoration: none;
   display: inline-block;
-  transition: background-color 0.3s;
-}
-
-.pub-links a.bib-btn {
-  background-color: #6c757d;
   cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 .pub-links a.bib-btn:hover {
   background-color: #5a6268;
 }
 
-.pub-links a:not(.inspire-badge a):hover {
-  background-color: #1e5ba8;
-  text-decoration: none;
-}
-
-/* INSPIRE badge styling */
-.inspire-badge {
-  display: inline-flex;
+.inspire-count {
   margin-left: auto;
 }
 
-.inspire-badge a {
-  display: inline-flex;
-  align-items: center;
+.inspire-count a {
+  color: #757575;
   text-decoration: none;
-  border-radius: 4px;
-  overflow: hidden;
-  font-size: 0.85rem;
-}
-
-.inspire-icon {
-  background-color: #f5f5dc;
-  color: #000;
-  padding: 5px 8px;
-  font-weight: 700;
-  font-family: monospace;
   font-size: 0.9rem;
 }
 
-.inspire-text {
-  background-color: #f5f5dc;
-  color: #000;
-  padding: 5px 8px 5px 0;
-  font-weight: 600;
-}
-
-.inspire-count {
-  background-color: #1a1a2e;
-  color: white;
-  padding: 5px 10px;
-  font-weight: 700;
-  min-width: 35px;
-  text-align: center;
-}
-
-.inspire-badge a:hover {
-  opacity: 0.9;
+.inspire-count a:hover {
+  color: #2a7ae2;
+  text-decoration: underline;
 }
 
 .bibtex {
@@ -387,12 +295,12 @@ function toggleBib(id) {
     align-items: flex-start;
   }
   
-  .inspire-badge {
+  .inspire-count {
     margin-left: 0;
   }
 }
 </style>
 
 <p style="margin-top: 3rem; color: #757575; font-size: 0.9rem;">
-  <strong>Note:</strong> Underlined names indicate group members. Citation counts from INSPIRE-HEP are updated periodically.
+  <strong>Note:</strong> Underlined names indicate group members. Citation counts from INSPIRE-HEP.
 </p>
