@@ -43,7 +43,7 @@ To update INSPIRE record IDs:
     <div class="pub-year">2025</div>
   </div>
   <div class="pub-authors">S. Fang, <span class="author-self">M. S. Gao</span>, H. T. Li, D. Y. Shao</div>
-  <div class="pub-venue"><em>JHEP</em> <strong><a href="https://doi.org/10.1007/JHEP01(2025)029" target="_blank">01</a></strong>, 029 (2025)</div>
+  <div class="pub-venue"><a href="https://doi.org/10.1007/JHEP01(2025)029" target="_blank"><em>JHEP</em> <strong>01</strong>, 029 (2025)</a></div>
   <div class="pub-links">
     <a class="bib-btn" onclick="toggleBib('bib-2025-2')">BIB</a>
   </div>
@@ -66,7 +66,7 @@ To update INSPIRE record IDs:
     <div class="pub-year">2023</div>
   </div>
   <div class="pub-authors"><span class="author-self">M. S. Gao</span>, Z. B. Kang, D. Y. Shao, J. Terry, C. Zhang</div>
-  <div class="pub-venue"><em>JHEP</em> <strong><a href="https://doi.org/10.1007/JHEP10(2023)013" target="_blank">10</a></strong> (2023) 013</div>
+  <div class="pub-venue"><a href="https://doi.org/10.1007/JHEP10(2023)013" target="_blank"><em>JHEP</em> <strong>10</strong> (2023) 013</a></div>
   <div class="pub-links">
     <a class="bib-btn" onclick="toggleBib('bib-2023-1')">BIB</a>
   </div>
@@ -89,7 +89,7 @@ To update INSPIRE record IDs:
     <div class="pub-year">2023</div>
   </div>
   <div class="pub-authors">J. Gao, <span class="author-self">M. Gao</span>, T. J. Hobbs, D. Liu, X. Shen</div>
-  <div class="pub-venue"><em>JHEP</em> <strong><a href="https://doi.org/10.1007/JHEP05(2023)003" target="_blank">05</a></strong> (2023) 003</div>
+  <div class="pub-venue"><a href="https://doi.org/10.1007/JHEP05(2023)003" target="_blank"><em>JHEP</em> <strong>05</strong> (2023) 003</a></div>
   <div class="pub-links">
     <a class="bib-btn" onclick="toggleBib('bib-2023-2')">BIB</a>
   </div>
@@ -112,7 +112,7 @@ To update INSPIRE record IDs:
     <div class="pub-year">2021</div>
   </div>
   <div class="pub-authors"><span class="author-self">M. S. Gao</span>, J. Gao</div>
-  <div class="pub-venue"><em>Phys. Rev. D</em> <strong><a href="https://doi.org/10.1103/PhysRevD.104.053005" target="_blank">104</a></strong> (2021) 053005</div>
+  <div class="pub-venue"><a href="https://doi.org/10.1103/PhysRevD.104.053005" target="_blank"><em>Phys. Rev. D</em> <strong>104</strong> (2021) 053005</a></div>
   <div class="pub-links">
     <a class="bib-btn" onclick="toggleBib('bib-2021-1')">BIB</a>
   </div>
@@ -135,7 +135,7 @@ To update INSPIRE record IDs:
     <div class="pub-year">2021</div>
   </div>
   <div class="pub-authors"><span class="author-self">M. S. Gao</span>, S. R. Yuan, J. Gao</div>
-  <div class="pub-venue"><em>JHEP</em> <strong><a href="https://doi.org/10.1007/JHEP04(2021)054" target="_blank">04</a></strong> (2021) 054</div>
+  <div class="pub-venue"><a href="https://doi.org/10.1007/JHEP04(2021)054" target="_blank"><em>JHEP</em> <strong>04</strong> (2021) 054</a></div>
   <div class="pub-links">
     <a class="bib-btn" onclick="toggleBib('bib-2021-2')">BIB</a>
   </div>
