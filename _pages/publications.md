@@ -24,9 +24,9 @@ To update INSPIRE record IDs:
   <div class="pub-venue"><em>e-Print: <a href="https://arxiv.org/abs/2509.15809" target="_blank">2509.15809</a></em></div>
   <div class="pub-links">
     <a class="bib-btn" onclick="toggleBib('bib-2025-1')">BIB</a>
-    <button class="copy-btn" onclick="copyBibtex('bib-2025-1')" title="Copy BibTeX">📋</button>
   </div>
   <div id="bib-2025-1" class="bibtex" style="display:none;">
+    <button class="copy-btn" onclick="copyBibtex('bib-2025-1')" title="Copy BibTeX">📋</button>
     <pre>@article{Gao:2025transversity,
   author = {Gao, Mei-Sen and Kang, Zhong-Bo and Li, Wen-Chen and Shao, Ding-Yu},
   title = {Accessing nucleon transversity with one-point energy correlators},
@@ -47,9 +47,9 @@ To update INSPIRE record IDs:
   <div class="pub-venue"><a href="https://doi.org/10.1007/JHEP01(2025)029" target="_blank"><em>JHEP</em> <strong>01</strong>, 029 (2025)</a></div>
   <div class="pub-links">
     <a class="bib-btn" onclick="toggleBib('bib-2025-2')">BIB</a>
-    <button class="copy-btn" onclick="copyBibtex('bib-2025-2')" title="Copy BibTeX">📋</button>
   </div>
   <div id="bib-2025-2" class="bibtex" style="display:none;">
+    <button class="copy-btn" onclick="copyBibtex('bib-2025-2')" title="Copy BibTeX">📋</button>
     <pre>@article{Fang:2025jhep,
   author = {Fang, Shen and Gao, Mei-Sen and Li, Hai-Tao and Shao, Ding-Yu},
   title = {N³LL + O(α_s²) predictions of lepton–jet azimuthal distribution in DIS},
@@ -71,9 +71,9 @@ To update INSPIRE record IDs:
   <div class="pub-venue"><a href="https://doi.org/10.1007/JHEP10(2023)013" target="_blank"><em>JHEP</em> <strong>10</strong> (2023) 013</a></div>
   <div class="pub-links">
     <a class="bib-btn" onclick="toggleBib('bib-2023-1')">BIB</a>
-    <button class="copy-btn" onclick="copyBibtex('bib-2023-1')" title="Copy BibTeX">📋</button>
   </div>
   <div id="bib-2023-1" class="bibtex" style="display:none;">
+    <button class="copy-btn" onclick="copyBibtex('bib-2023-1')" title="Copy BibTeX">📋</button>
     <pre>@article{Gao:2023dijet,
   author = {Gao, Mei-Sen and Kang, Zhong-Bo and Shao, Ding-Yu and Terry, John and Zhang, Cheng},
   title = {QCD resummation of dijet azimuthal decorrelations in pp and pA},
@@ -95,9 +95,9 @@ To update INSPIRE record IDs:
   <div class="pub-venue"><a href="https://doi.org/10.1007/JHEP05(2023)003" target="_blank"><em>JHEP</em> <strong>05</strong> (2023) 003</a></div>
   <div class="pub-links">
     <a class="bib-btn" onclick="toggleBib('bib-2023-2')">BIB</a>
-    <button class="copy-btn" onclick="copyBibtex('bib-2023-2')" title="Copy BibTeX">📋</button>
   </div>
   <div id="bib-2023-2" class="bibtex" style="display:none;">
+    <button class="copy-btn" onclick="copyBibtex('bib-2023-2')" title="Copy BibTeX">📋</button>
     <pre>@article{Gao:2023smeft,
   author = {Gao, Jun and Gao, Meisen and Hobbs, T. J. and Liu, Deping and Shen, Xiaoxu},
   title = {Simultaneous CTEQ-TEA extraction of PDFs and SMEFT parameters from jet and tt̄ data},
@@ -119,9 +119,9 @@ To update INSPIRE record IDs:
   <div class="pub-venue"><a href="https://doi.org/10.1103/PhysRevD.104.053005" target="_blank"><em>Phys. Rev. D</em> <strong>104</strong> (2021) 053005</a></div>
   <div class="pub-links">
     <a class="bib-btn" onclick="toggleBib('bib-2021-1')">BIB</a>
-    <button class="copy-btn" onclick="copyBibtex('bib-2021-1')" title="Copy BibTeX">📋</button>
   </div>
   <div id="bib-2021-1" class="bibtex" style="display:none;">
+    <button class="copy-btn" onclick="copyBibtex('bib-2021-1')" title="Copy BibTeX">📋</button>
     <pre>@article{Gao:2021lhec,
   author = {Gao, Mei-Sen and Gao, Jun},
   title = {Differential distributions for single top-quark production at the LHeC},
@@ -143,9 +143,9 @@ To update INSPIRE record IDs:
   <div class="pub-venue"><a href="https://doi.org/10.1007/JHEP04(2021)054" target="_blank"><em>JHEP</em> <strong>04</strong> (2021) 054</a></div>
   <div class="pub-links">
     <a class="bib-btn" onclick="toggleBib('bib-2021-2')">BIB</a>
-    <button class="copy-btn" onclick="copyBibtex('bib-2021-2')" title="Copy BibTeX">📋</button>
   </div>
   <div id="bib-2021-2" class="bibtex" style="display:none;">
+    <button class="copy-btn" onclick="copyBibtex('bib-2021-2')" title="Copy BibTeX">📋</button>
     <pre>@article{Gao:2021topmass,
   author = {Gao, Mei-Sen and Yuan, Shuo-Ren and Gao, Jun},
   title = {Top-quark mass determination from t-channel single-top at the LHC},
@@ -299,24 +299,40 @@ function copyBibtex(id) {
   background-color: #5a6268;
 }
 
+.bibtex {
+  position: relative;
+}
+
 .copy-btn {
-  padding: 5px 10px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 8px;
   background-color: #28a745;
   color: white;
   border: none;
   border-radius: 4px;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   cursor: pointer;
-  transition: background-color 0.3s;
-  margin-left: 0.5rem;
+  transition: all 0.3s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 10;
+}
+
+.bibtex:hover .copy-btn {
+  opacity: 1;
+  visibility: visible;
 }
 
 .copy-btn:hover {
   background-color: #218838;
+  transform: scale(1.05);
 }
 
 .copy-btn:active {
   background-color: #1e7e34;
+  transform: scale(0.95);
 }
 
 
@@ -326,6 +342,7 @@ function copyBibtex(id) {
   background-color: #f5f5f5;
   border-left: 3px solid #2a7ae2;
   border-radius: 4px;
+  position: relative;
 }
 
 .bibtex pre {
