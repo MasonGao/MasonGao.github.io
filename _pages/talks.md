@@ -49,7 +49,3 @@ Santiago de Compostela, Spain & Online
 May 2, 2022  
 (Poster presentation, online)
 
----
-
-*Note: Additional talks and presentations will be added as they occur.*
-
