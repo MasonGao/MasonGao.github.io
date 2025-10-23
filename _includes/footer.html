@@ -9,20 +9,21 @@
       </div>
       
       <div class="footer-col">
-        <div class="social-links">
-          {% if site.email %}
-            <a href="mailto:{{ site.email }}" title="Email"><i class="fas fa-envelope"></i></a>
-          {% endif %}
-          {% if site.github_username %}
-            <a href="https://github.com/{{ site.github_username }}" title="GitHub" target="_blank"><i class="fab fa-github"></i></a>
-          {% endif %}
-          {% if site.scholar_userid %}
-            <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" title="Google Scholar" target="_blank"><i class="fas fa-graduation-cap"></i></a>
-          {% endif %}
-          {% if site.orcid_id %}
-            <a href="https://orcid.org/{{ site.orcid_id }}" title="ORCID" target="_blank"><i class="fab fa-orcid"></i></a>
-          {% endif %}
-        </div>
+      <div class="social-links">
+        {% if site.email %}
+          <a href="mailto:{{ site.email }}" title="Email"><i class="fas fa-envelope"></i></a>
+        {% endif %}
+        {% if site.github_username %}
+          <a href="https://github.com/{{ site.github_username }}" title="GitHub" target="_blank"><i class="fab fa-github"></i></a>
+        {% endif %}
+        <a href="https://inspirehep.net/authors/1859876" title="INSPIRE-HEP" target="_blank"><i class="fas fa-book"></i></a>
+        {% if site.scholar_userid %}
+          <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" title="Google Scholar" target="_blank"><i class="fas fa-graduation-cap"></i></a>
+        {% endif %}
+        {% if site.orcid_id %}
+          <a href="https://orcid.org/{{ site.orcid_id }}" title="ORCID" target="_blank"><i class="fab fa-orcid"></i></a>
+        {% endif %}
+      </div>
       </div>
     </div>
   </div>
