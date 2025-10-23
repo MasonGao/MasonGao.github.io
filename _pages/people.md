@@ -6,19 +6,12 @@ permalink: /people/
 
 ## Principal Investigator
 
-### Meisen Gao
+### [Meisen Gao](/cv/)
 
 **Position:** Lecturer  
 **Affiliation:** School of Physics, East China University of Science and Technology (ECUST)  
 **Office:** Room 315, School of Physics, ECUST (Xuhui Campus)  
 **Email:** msgao@ecust.edu.cn
-
-**Research Interests:**
-- Jets & Perturbative QCD
-- Small-*x* QCD & Color Glass Condensate
-- Top-quark Physics
-- Effective Field Theory
-- AI/ML for High-Energy Physics
 
 ---
 
