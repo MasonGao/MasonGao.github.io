@@ -15,10 +15,11 @@ To update INSPIRE record IDs:
 
 <div class="publications">
 
-<div class="year">2025</div>
-
 <div class="publication">
-  <div class="pub-title">Accessing nucleon transversity with one-point energy correlators</div>
+  <div class="pub-header">
+    <div class="pub-title">Accessing nucleon transversity with one-point energy correlators</div>
+    <div class="pub-year">2025</div>
+  </div>
   <div class="pub-authors"><span class="author-self">M. S. Gao</span>, Z. B. Kang, W. C. Li, D. Y. Shao</div>
   <div class="pub-venue"><em>e-Print: <a href="https://arxiv.org/abs/2509.15809" target="_blank">2509.15809</a></em></div>
   <div class="pub-links">
@@ -40,7 +41,10 @@ To update INSPIRE record IDs:
 </div>
 
 <div class="publication">
-  <div class="pub-title">N³LL + O(α<sub>s</sub><sup>2</sup>) predictions of lepton–jet azimuthal distribution in DIS</div>
+  <div class="pub-header">
+    <div class="pub-title">N³LL + O(α<sub>s</sub><sup>2</sup>) predictions of lepton–jet azimuthal distribution in DIS</div>
+    <div class="pub-year">2025</div>
+  </div>
   <div class="pub-authors">S. Fang, <span class="author-self">M. S. Gao</span>, H. T. Li, D. Y. Shao</div>
   <div class="pub-venue"><em>JHEP</em> <strong><a href="https://doi.org/10.1007/JHEP01(2025)029" target="_blank">01</a></strong>, 029 (2025)</div>
   <div class="pub-links">
@@ -62,10 +66,11 @@ To update INSPIRE record IDs:
   </div>
 </div>
 
-<div class="year">2023</div>
-
 <div class="publication">
-  <div class="pub-title">QCD resummation of dijet azimuthal decorrelations in <em>pp</em> and <em>pA</em></div>
+  <div class="pub-header">
+    <div class="pub-title">QCD resummation of dijet azimuthal decorrelations in <em>pp</em> and <em>pA</em></div>
+    <div class="pub-year">2023</div>
+  </div>
   <div class="pub-authors"><span class="author-self">M. S. Gao</span>, Z. B. Kang, D. Y. Shao, J. Terry, C. Zhang</div>
   <div class="pub-venue"><em>JHEP</em> <strong><a href="https://doi.org/10.1007/JHEP10(2023)013" target="_blank">10</a></strong> (2023) 013</div>
   <div class="pub-links">
@@ -88,7 +93,10 @@ To update INSPIRE record IDs:
 </div>
 
 <div class="publication">
-  <div class="pub-title">Simultaneous CTEQ-TEA extraction of PDFs and SMEFT parameters from jet and <em>tt̄</em> data</div>
+  <div class="pub-header">
+    <div class="pub-title">Simultaneous CTEQ-TEA extraction of PDFs and SMEFT parameters from jet and <em>tt̄</em> data</div>
+    <div class="pub-year">2023</div>
+  </div>
   <div class="pub-authors">J. Gao, <span class="author-self">M. Gao</span>, T. J. Hobbs, D. Liu, X. Shen</div>
   <div class="pub-venue"><em>JHEP</em> <strong><a href="https://doi.org/10.1007/JHEP05(2023)003" target="_blank">05</a></strong> (2023) 003</div>
   <div class="pub-links">
@@ -110,10 +118,11 @@ To update INSPIRE record IDs:
   </div>
 </div>
 
-<div class="year">2021</div>
-
 <div class="publication">
-  <div class="pub-title">Differential distributions for single top-quark production at the LHeC</div>
+  <div class="pub-header">
+    <div class="pub-title">Differential distributions for single top-quark production at the LHeC</div>
+    <div class="pub-year">2021</div>
+  </div>
   <div class="pub-authors"><span class="author-self">M. S. Gao</span>, J. Gao</div>
   <div class="pub-venue"><em>Phys. Rev. D</em> <strong><a href="https://doi.org/10.1103/PhysRevD.104.053005" target="_blank">104</a></strong> (2021) 053005</div>
   <div class="pub-links">
@@ -136,7 +145,10 @@ To update INSPIRE record IDs:
 </div>
 
 <div class="publication">
-  <div class="pub-title">Top-quark mass determination from <em>t</em>-channel single-top at the LHC</div>
+  <div class="pub-header">
+    <div class="pub-title">Top-quark mass determination from <em>t</em>-channel single-top at the LHC</div>
+    <div class="pub-year">2021</div>
+  </div>
   <div class="pub-authors"><span class="author-self">M. S. Gao</span>, S. R. Yuan, J. Gao</div>
   <div class="pub-venue"><em>JHEP</em> <strong><a href="https://doi.org/10.1007/JHEP04(2021)054" target="_blank">04</a></strong> (2021) 054</div>
   <div class="pub-links">
@@ -176,16 +188,22 @@ function toggleBib(id) {
   margin-top: 2rem;
 }
 
-.year {
-  font-size: 3rem;
-  font-weight: 700;
+.pub-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.5rem;
+}
+
+.pub-year {
+  font-size: 1.2rem;
+  font-weight: 600;
   color: #002147;
-  text-align: right;
-  margin-top: 3rem;
-  margin-bottom: 1.5rem;
-  border-bottom: 2px solid #e8e8e8;
-  padding-bottom: 0.5rem;
-  opacity: 0.3;
+  background-color: #f0f0f0;
+  padding: 0.3rem 0.8rem;
+  border-radius: 4px;
+  white-space: nowrap;
+  margin-left: 1rem;
 }
 
 .publication {
@@ -203,8 +221,8 @@ function toggleBib(id) {
 .pub-title {
   font-size: 1.15rem;
   font-weight: 600;
-  margin-bottom: 0.5rem;
   line-height: 1.4;
+  flex: 1;
 }
 
 .pub-authors {
@@ -290,8 +308,15 @@ function toggleBib(id) {
 }
 
 @media screen and (max-width: 768px) {
-  .year {
-    font-size: 2rem;
+  .pub-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .pub-year {
+    margin-left: 0;
+    margin-top: 0.5rem;
+    font-size: 1rem;
   }
   
   .pub-title {
