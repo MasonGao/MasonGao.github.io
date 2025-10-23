@@ -8,14 +8,10 @@ permalink: /people/
 
 ### Meisen Gao
 
-<div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
-<div style="flex: 1;">
-
 **Position:** Lecturer  
 **Affiliation:** School of Physics, East China University of Science and Technology (ECUST)  
 **Office:** Room 315, School of Physics, ECUST (Xuhui Campus)  
-**Email:** msgao@ecust.edu.cn  
-**Website:** [https://masongao.github.io](https://masongao.github.io)
+**Email:** msgao@ecust.edu.cn
 
 **Research Interests:**
 - Jets & Perturbative QCD
@@ -23,9 +19,6 @@ permalink: /people/
 - Top-quark Physics
 - Effective Field Theory
 - AI/ML for High-Energy Physics
-
-</div>
-</div>
 
 ---
 

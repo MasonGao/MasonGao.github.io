@@ -6,11 +6,6 @@ permalink: /publications/
 
 ## Selected Publications
 
-Below is a list of our publications. For a complete and up-to-date list, please visit:
-- [arXiv](https://arxiv.org/search/?searchtype=author&query=Gao%2C+M+S)
-- [Google Scholar](https://scholar.google.com/)
-- [INSPIRE-HEP](https://inspirehep.net/)
-
 ---
 
 ### 2025
@@ -51,32 +46,5 @@ J. Gao, **M. Gao**, T. J. Hobbs, D. Liu, X. Shen
 
 ---
 
-## Preprints
-
-For the latest preprints, please check [arXiv](https://arxiv.org/search/?searchtype=author&query=Gao%2C+M+S).
-
----
-
-## Conference Proceedings
-
-*Conference proceedings will be listed here.*
-
----
-
-## Theses
-
-**Ph.D. Thesis:** *Topics in Top-quark Physics and QCD Phenomenology*  
-Shanghai Jiao Tong University, 2022
-
----
-
-## Citation Metrics
-
-For citation statistics, please visit:
-- [Google Scholar Profile](https://scholar.google.com/)
-- [INSPIRE-HEP Profile](https://inspirehep.net/)
-
----
-
-*Note: Bold names indicate group members. For papers with many authors, collaboration names are used.*
+*Note: Bold names indicate group members.*
 

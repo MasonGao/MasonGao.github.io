@@ -1,11 +1,11 @@
 # Site settings
-title: Meisen Gao
+title: Meisen Gao's Group
 first_name: Meisen
 middle_name: 
 last_name: Gao
 email: msgao@ecust.edu.cn
 description: > # this means to ignore newlines until next field
-  Research Group at East China University of Science and Technology.
+  Meisen Gao's Research Group at East China University of Science and Technology.
   High-energy physics phenomenology, jets, QCD, and AI applications.
 
 url: https://masongao.github.io
