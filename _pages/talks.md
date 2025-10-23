@@ -8,7 +8,7 @@ permalink: /talks/
 
 <div class="talk">
   <div class="talk-header">
-    <div class="talk-title with-link">Transformer-based Learning of BK Evolution and DIS Cross Sections</div>
+    <div class="talk-title">Transformer-based Learning of BK Evolution and DIS Cross Sections</div>
     <div class="talk-year">2025</div>
   </div>
   <div class="talk-author">Meisen Gao</div>
@@ -19,7 +19,7 @@ permalink: /talks/
 
 <div class="talk">
   <div class="talk-header">
-    <div class="talk-title">QCD resummation of dijet and photon + jet azimuthal decorrelations in p-p and p-A collisions</div>
+    <div class="talk-title"><a href="https://indico.ihep.ac.cn/event/21455/contributions/154611/" target="_blank">QCD resummation of dijet and photon + jet azimuthal decorrelations in p-p and p-A collisions</a></div>
     <div class="talk-year">2024</div>
   </div>
   <div class="talk-author">Meisen Gao</div>
@@ -40,7 +40,7 @@ permalink: /talks/
 
 <div class="talk">
   <div class="talk-header">
-    <div class="talk-title">QCD resummation of dijet azimuthal decorrelations in p-p and p-A collisions</div>
+    <div class="talk-title"><a href="https://indico.ihep.ac.cn/event/19422/contributions/139075/" target="_blank">QCD resummation of dijet azimuthal decorrelations in p-p and p-A collisions</a></div>
     <div class="talk-year">2023</div>
   </div>
   <div class="talk-author">Meisen Gao</div>
@@ -62,7 +62,7 @@ permalink: /talks/
 
 <div class="talk">
   <div class="talk-header">
-    <div class="talk-title with-link">Differential distributions for single top quark production at the LHeC</div>
+    <div class="talk-title">Differential distributions for single top quark production at the LHeC</div>
     <div class="talk-year">2022</div>
   </div>
   <div class="talk-author">Meisen Gao</div>
@@ -115,8 +115,14 @@ permalink: /talks/
   flex: 1;
 }
 
-.talk-title.with-link {
+.talk-title a {
   color: #2a7ae2;
+  text-decoration: none;
+}
+
+.talk-title a:hover {
+  color: #1a5bb8;
+  text-decoration: underline;
 }
 
 .talk-author {
