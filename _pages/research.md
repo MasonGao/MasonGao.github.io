@@ -18,7 +18,6 @@ We develop high-precision predictions using resummation techniques:
 Understanding QCD dynamics at high energies using the Color Glass Condensate (CGC) framework:
 - BK evolution fits to HERA data
 - Phenomenology for the Electron-Ion Collider (EIC)
-- One-point energy correlators for nucleon transversity
 
 ---
 
