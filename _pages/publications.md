@@ -190,11 +190,15 @@ function copyBibtex(id) {
     var button = event.target;
     var originalText = button.innerHTML;
     button.innerHTML = '✓';
-    button.style.backgroundColor = '#28a745';
+    button.style.backgroundColor = 'rgba(0, 0, 0, 0.1)';
+    button.style.borderColor = '#28a745';
+    button.style.color = '#28a745';
     
     setTimeout(function() {
       button.innerHTML = originalText;
-      button.style.backgroundColor = '#28a745';
+      button.style.backgroundColor = 'transparent';
+      button.style.borderColor = '#333';
+      button.style.color = '#333';
     }, 1000);
     
   } catch (err) {
