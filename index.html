@@ -22,16 +22,11 @@ layout: default
         </p>
       </div>
       
-      <div class="contact">
+      <div class="cv-link" style="margin-top: 1.5rem; margin-bottom: 1.5rem;">
         <p>
-          <i class="fas fa-envelope"></i> 
-          <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+          <i class="fas fa-file-alt"></i> 
+          <a href="{{ '/cv/' | relative_url }}" style="font-size: 1.1rem; font-weight: 600;">View Full Curriculum Vitae</a>
         </p>
-        {% if site.profile.address %}
-        <div class="address" style="margin-top: 1rem; color: #757575;">
-          {{ site.profile.address }}
-        </div>
-        {% endif %}
       </div>
     </div>
   </div>
@@ -46,6 +41,24 @@ layout: default
       <li><strong>Effective Field Theory:</strong> Applications of EFT methods to high-energy processes</li>
       <li><strong>AI/ML for High-Energy Physics:</strong> Developing machine learning surrogates for theoretical predictions</li>
     </ul>
+  </section>
+  
+  <!-- Join Us -->
+  <section class="join-section">
+    <h2>Join Us</h2>
+    <p><strong>Open Positions:</strong> To be announced.</p>
+    <p>We are establishing our research group at ECUST. Recruitment information for graduate students and postdoctoral researchers will be posted here in due course.</p>
+    <p>If you are interested in our research and would like to learn more about future opportunities, please feel free to contact us.</p>
+  </section>
+  
+  <!-- Contact -->
+  <section class="contact-section">
+    <h2>Contact</h2>
+    <p>
+      <strong>Prof. Meisen Gao</strong><br>
+      <i class="fas fa-envelope"></i> Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a><br>
+      <i class="fas fa-map-marker-alt"></i> Office: Room 315, School of Physics, ECUST (Xuhui Campus)
+    </p>
   </section>
   
   <!-- Latest News -->
