@@ -4,13 +4,27 @@ title: Talks
 permalink: /talks/
 ---
 
+### 2024
+
+**QCD resummation of dijet and photon + jet azimuthal decorrelations in p-p and p-A collisions**  
+Meisen Gao  
+*Sixth Workshop on Heavy Flavor Physics and Quantum Chromodynamics*  
+Qingdao, China  
+April 22, 2024
+
 ### 2023
 
-**QCD resummation of dijet azimuthal decorrelations in pp and pA collisions**  
+**QCD resummation of dijet azimuthal decorrelations in p-p and p-A collisions**  
 Meisen Gao  
 *Third Workshop on Quantum Field Theory and Its Applications*  
 Beijing Computational Science Research Center, Beijing, China  
 August 14-16, 2023
+
+**QCD resummation of dijet azimuthal decorrelations in p-p and p-A collisions**  
+Meisen Gao  
+*2023 Shanghai Workshop on Particle and Nuclear Physics*  
+Shanghai, China  
+December 2023
 
 ### 2022
 
