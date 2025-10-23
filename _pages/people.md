@@ -9,7 +9,6 @@ permalink: /people/
 ### [Meisen Gao](/cv/)
 
 **Position:** Lecturer  
-**Affiliation:** School of Physics, East China University of Science and Technology (ECUST)  
 **Email:** msgao@ecust.edu.cn
 
 ---
