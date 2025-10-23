@@ -5,6 +5,14 @@ page_title: Selected Publications
 permalink: /publications/
 ---
 
+<!-- 
+To update INSPIRE record IDs:
+1. Go to https://inspirehep.net/
+2. Search for your paper by DOI or title
+3. Copy the record ID from URL (e.g., inspirehep.net/literature/XXXXXX)
+4. Update the recid number below
+-->
+
 <div class="publications">
 
 <div class="year">2025</div>
@@ -16,7 +24,7 @@ permalink: /publications/
   <div class="pub-links">
     <a class="bib-btn" onclick="toggleBib('bib-2025-1')">BIB</a>
     <div class="inspire-count">
-      <a href="https://inspirehep.net/literature?q=eprint:2509.15809" target="_blank">0 citations</a>
+      <a href="https://inspirehep.net/literature?q=refersto:recid:UPDATE_RECID_HERE" target="_blank">- citations</a>
     </div>
   </div>
   <div id="bib-2025-1" class="bibtex" style="display:none;">
@@ -38,7 +46,7 @@ permalink: /publications/
   <div class="pub-links">
     <a class="bib-btn" onclick="toggleBib('bib-2025-2')">BIB</a>
     <div class="inspire-count">
-      <a href="https://inspirehep.net/literature?q=doi:10.1007/JHEP01(2025)029" target="_blank">0 citations</a>
+      <a href="https://inspirehep.net/literature?q=refersto:recid:UPDATE_RECID_HERE" target="_blank">- citations</a>
     </div>
   </div>
   <div id="bib-2025-2" class="bibtex" style="display:none;">
@@ -63,7 +71,7 @@ permalink: /publications/
   <div class="pub-links">
     <a class="bib-btn" onclick="toggleBib('bib-2023-1')">BIB</a>
     <div class="inspire-count">
-      <a href="https://inspirehep.net/literature?q=doi:10.1007/JHEP10(2023)013" target="_blank">16 citations</a>
+      <a href="https://inspirehep.net/literature?q=refersto:recid:2669309" target="_blank">16 citations</a>
     </div>
   </div>
   <div id="bib-2023-1" class="bibtex" style="display:none;">
@@ -86,7 +94,7 @@ permalink: /publications/
   <div class="pub-links">
     <a class="bib-btn" onclick="toggleBib('bib-2023-2')">BIB</a>
     <div class="inspire-count">
-      <a href="https://inspirehep.net/literature?q=doi:10.1007/JHEP05(2023)003" target="_blank">39 citations</a>
+      <a href="https://inspirehep.net/literature?q=refersto:recid:UPDATE_RECID_HERE" target="_blank">- citations</a>
     </div>
   </div>
   <div id="bib-2023-2" class="bibtex" style="display:none;">
@@ -111,7 +119,7 @@ permalink: /publications/
   <div class="pub-links">
     <a class="bib-btn" onclick="toggleBib('bib-2021-1')">BIB</a>
     <div class="inspire-count">
-      <a href="https://inspirehep.net/literature?q=doi:10.1103/PhysRevD.104.053005" target="_blank">12 citations</a>
+      <a href="https://inspirehep.net/literature?q=refersto:recid:UPDATE_RECID_HERE" target="_blank">- citations</a>
     </div>
   </div>
   <div id="bib-2021-1" class="bibtex" style="display:none;">
@@ -134,7 +142,7 @@ permalink: /publications/
   <div class="pub-links">
     <a class="bib-btn" onclick="toggleBib('bib-2021-2')">BIB</a>
     <div class="inspire-count">
-      <a href="https://inspirehep.net/literature?q=doi:10.1007/JHEP04(2021)054" target="_blank">46 citations</a>
+      <a href="https://inspirehep.net/literature?q=refersto:recid:UPDATE_RECID_HERE" target="_blank">- citations</a>
     </div>
   </div>
   <div id="bib-2021-2" class="bibtex" style="display:none;">
@@ -303,4 +311,9 @@ function toggleBib(id) {
 
 <p style="margin-top: 3rem; color: #757575; font-size: 0.9rem;">
   <strong>Note:</strong> Underlined names indicate group members. Citation counts from INSPIRE-HEP.
+</p>
+
+<p style="margin-top: 0.5rem; color: #999; font-size: 0.85rem;">
+  <strong>To update citations:</strong> Find your paper on <a href="https://inspirehep.net/" target="_blank">INSPIRE-HEP</a>, 
+  copy the record ID from the URL, and update the recid in the source file.
 </p>
