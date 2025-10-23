@@ -10,7 +10,6 @@ permalink: /people/
 
 **Position:** Lecturer  
 **Affiliation:** School of Physics, East China University of Science and Technology (ECUST)  
-**Office:** Room 315, School of Physics, ECUST (Xuhui Campus)  
 **Email:** msgao@ecust.edu.cn
 
 ---
