@@ -4,10 +4,6 @@ title: Publications
 permalink: /publications/
 ---
 
-## Selected Publications
-
----
-
 ### 2025
 
 **Accessing nucleon transversity with one-point energy correlators**  
