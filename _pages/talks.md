@@ -11,7 +11,7 @@ Meisen Gao
 *[2025 Saturated Glue (SURGE) Collaboration Meeting and Workshop](https://indico.global/event/13890/overview)*  
 University of California, Los Angeles (UCLA)  
 June 24, 2025  
-(Breakout session discussion)
+(Breakout session discussion, Online)
 
 ### 2024
 
@@ -47,7 +47,7 @@ Meisen Gao
 *[DIS2022: XXIX International Workshop on Deep-Inelastic Scattering and Related Subjects](https://indico.cern.ch/event/1072533/overview)*  
 Santiago de Compostela, Spain & Online  
 May 2, 2022  
-(Poster presentation)
+(Poster presentation, online)
 
 ---
 
