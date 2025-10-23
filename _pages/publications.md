@@ -24,9 +24,6 @@ To update INSPIRE record IDs:
   <div class="pub-venue"><em>e-Print: <a href="https://arxiv.org/abs/2509.15809" target="_blank">2509.15809</a></em></div>
   <div class="pub-links">
     <a class="bib-btn" onclick="toggleBib('bib-2025-1')">BIB</a>
-    <div class="inspire-count">
-      <a href="https://inspirehep.net/literature?q=refersto:recid:UPDATE_RECID_HERE" target="_blank">- citations</a>
-    </div>
   </div>
   <div id="bib-2025-1" class="bibtex" style="display:none;">
     <pre>@article{Gao:2025transversity,
@@ -49,9 +46,6 @@ To update INSPIRE record IDs:
   <div class="pub-venue"><em>JHEP</em> <strong><a href="https://doi.org/10.1007/JHEP01(2025)029" target="_blank">01</a></strong>, 029 (2025)</div>
   <div class="pub-links">
     <a class="bib-btn" onclick="toggleBib('bib-2025-2')">BIB</a>
-    <div class="inspire-count">
-      <a href="https://inspirehep.net/literature?q=refersto:recid:UPDATE_RECID_HERE" target="_blank">- citations</a>
-    </div>
   </div>
   <div id="bib-2025-2" class="bibtex" style="display:none;">
     <pre>@article{Fang:2025jhep,
@@ -75,9 +69,6 @@ To update INSPIRE record IDs:
   <div class="pub-venue"><em>JHEP</em> <strong><a href="https://doi.org/10.1007/JHEP10(2023)013" target="_blank">10</a></strong> (2023) 013</div>
   <div class="pub-links">
     <a class="bib-btn" onclick="toggleBib('bib-2023-1')">BIB</a>
-    <div class="inspire-count">
-      <a href="https://inspirehep.net/literature?q=refersto:recid:2669309" target="_blank">16 citations</a>
-    </div>
   </div>
   <div id="bib-2023-1" class="bibtex" style="display:none;">
     <pre>@article{Gao:2023dijet,
@@ -101,9 +92,6 @@ To update INSPIRE record IDs:
   <div class="pub-venue"><em>JHEP</em> <strong><a href="https://doi.org/10.1007/JHEP05(2023)003" target="_blank">05</a></strong> (2023) 003</div>
   <div class="pub-links">
     <a class="bib-btn" onclick="toggleBib('bib-2023-2')">BIB</a>
-    <div class="inspire-count">
-      <a href="https://inspirehep.net/literature?q=refersto:recid:UPDATE_RECID_HERE" target="_blank">- citations</a>
-    </div>
   </div>
   <div id="bib-2023-2" class="bibtex" style="display:none;">
     <pre>@article{Gao:2023smeft,
@@ -127,9 +115,6 @@ To update INSPIRE record IDs:
   <div class="pub-venue"><em>Phys. Rev. D</em> <strong><a href="https://doi.org/10.1103/PhysRevD.104.053005" target="_blank">104</a></strong> (2021) 053005</div>
   <div class="pub-links">
     <a class="bib-btn" onclick="toggleBib('bib-2021-1')">BIB</a>
-    <div class="inspire-count">
-      <a href="https://inspirehep.net/literature?q=refersto:recid:UPDATE_RECID_HERE" target="_blank">- citations</a>
-    </div>
   </div>
   <div id="bib-2021-1" class="bibtex" style="display:none;">
     <pre>@article{Gao:2021lhec,
@@ -153,9 +138,6 @@ To update INSPIRE record IDs:
   <div class="pub-venue"><em>JHEP</em> <strong><a href="https://doi.org/10.1007/JHEP04(2021)054" target="_blank">04</a></strong> (2021) 054</div>
   <div class="pub-links">
     <a class="bib-btn" onclick="toggleBib('bib-2021-2')">BIB</a>
-    <div class="inspire-count">
-      <a href="https://inspirehep.net/literature?q=refersto:recid:UPDATE_RECID_HERE" target="_blank">- citations</a>
-    </div>
   </div>
   <div id="bib-2021-2" class="bibtex" style="display:none;">
     <pre>@article{Gao:2021topmass,
@@ -275,20 +257,6 @@ function toggleBib(id) {
   background-color: #5a6268;
 }
 
-.inspire-count {
-  margin-left: auto;
-}
-
-.inspire-count a {
-  color: #757575;
-  text-decoration: none;
-  font-size: 0.9rem;
-}
-
-.inspire-count a:hover {
-  color: #2a7ae2;
-  text-decoration: underline;
-}
 
 .bibtex {
   margin-top: 1rem;
@@ -328,17 +296,9 @@ function toggleBib(id) {
     align-items: flex-start;
   }
   
-  .inspire-count {
-    margin-left: 0;
-  }
 }
 </style>
 
 <p style="margin-top: 3rem; color: #757575; font-size: 0.9rem;">
-  <strong>Note:</strong> Underlined names indicate group members. Citation counts from INSPIRE-HEP.
-</p>
-
-<p style="margin-top: 0.5rem; color: #999; font-size: 0.85rem;">
-  <strong>To update citations:</strong> Find your paper on <a href="https://inspirehep.net/" target="_blank">INSPIRE-HEP</a>, 
-  copy the record ID from the URL, and update the recid in the source file.
+  <strong>Note:</strong> Underlined names indicate group members.
 </p>
