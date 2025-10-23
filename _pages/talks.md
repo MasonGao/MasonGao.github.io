@@ -23,7 +23,7 @@ April 22, 2024
 
 ### 2023
 
-**QCD resummation of dijet azimuthal decorrelations in p-p and p-A collisions**  
+**Annual Conference Talk**  
 *2023 Shanghai Workshop on Particle and Nuclear Physics*  
 Shanghai, China  
 December 2023
