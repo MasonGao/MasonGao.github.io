@@ -1,0 +1,30 @@
+<footer class="site-footer">
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="footer-text">
+          © {{ 'now' | date: "%Y" }} {{ site.first_name }} {{ site.last_name }}. 
+          Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>.
+        </p>
+      </div>
+      
+      <div class="footer-col">
+        <div class="social-links">
+          {% if site.email %}
+            <a href="mailto:{{ site.email }}" title="Email"><i class="fas fa-envelope"></i></a>
+          {% endif %}
+          {% if site.github_username %}
+            <a href="https://github.com/{{ site.github_username }}" title="GitHub" target="_blank"><i class="fab fa-github"></i></a>
+          {% endif %}
+          {% if site.scholar_userid %}
+            <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" title="Google Scholar" target="_blank"><i class="fas fa-graduation-cap"></i></a>
+          {% endif %}
+          {% if site.orcid_id %}
+            <a href="https://orcid.org/{{ site.orcid_id }}" title="ORCID" target="_blank"><i class="fab fa-orcid"></i></a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+

@@ -1,3 +1,74 @@
 ---
-layout: index
+layout: default
 ---
+
+<div class="home">
+  <div class="profile-single-column">
+    <div class="profile-content">
+      <h1><strong>{{ site.first_name }}</strong> {{ site.last_name }}</h1>
+      <p class="position">{{ site.position }}</p>
+      <p class="position">{{ site.affiliation }}</p>
+      
+      <div class="bio">
+        <p>
+          Welcome to our research group at the School of Physics, East China University of Science and Technology (ECUST). 
+          Our research focuses on <strong>high-energy physics phenomenology</strong>, including jets, perturbative QCD, 
+          effective field theory, and top-quark physics.
+        </p>
+        <p>
+          Recent work emphasizes <strong>small-<em>x</em> QCD</strong> and <strong>Color Glass Condensate (CGC)</strong> physics, 
+          BK evolution fits to HERA data, and the development of <strong>artificial intelligence methods</strong> 
+          as surrogates for theoretical predictions, highlighting the intersection of AI and high-energy physics.
+        </p>
+      </div>
+      
+      <div class="contact">
+        <p>
+          <i class="fas fa-envelope"></i> 
+          <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+        </p>
+        <p>
+          <i class="fas fa-globe"></i> 
+          <a href="{{ site.url }}" target="_blank">{{ site.url }}</a>
+        </p>
+        {% if site.profile.address %}
+        <div class="address" style="margin-top: 1rem; color: #757575;">
+          {{ site.profile.address }}
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  
+  <!-- Research Highlights -->
+  <section class="research-highlights">
+    <h2>Research Areas</h2>
+    <ul>
+      <li><strong>Jets & Perturbative QCD:</strong> High-precision theoretical predictions for jet production in collider experiments</li>
+      <li><strong>Small-<em>x</em> QCD & Color Glass Condensate:</strong> Understanding QCD dynamics at high energies and high parton densities</li>
+      <li><strong>Top-quark Physics:</strong> Precision measurements and theoretical calculations involving top quarks</li>
+      <li><strong>Effective Field Theory:</strong> Applications of EFT methods to high-energy processes</li>
+      <li><strong>AI/ML for High-Energy Physics:</strong> Developing machine learning surrogates for theoretical predictions</li>
+    </ul>
+  </section>
+  
+  <!-- Latest News -->
+  <section class="news-section">
+    <h2>Latest News</h2>
+    <ul class="news">
+      <li>
+        <span class="date">Jan 2025</span>
+        <span class="content">New paper published in JHEP on N³LL predictions of lepton–jet azimuthal distribution in DIS</span>
+      </li>
+      <li>
+        <span class="date">Jan 2025</span>
+        <span class="content">Started position as Lecturer at ECUST School of Physics</span>
+      </li>
+      <li>
+        <span class="date">2024-2025</span>
+        <span class="content">Visiting Postdoctoral Researcher at UCLA</span>
+      </li>
+    </ul>
+    <p><a href="{{ '/news/' | relative_url }}">See all news →</a></p>
+  </section>
+</div>

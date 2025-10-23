@@ -1,1 +1,0 @@
-# GMS's Notes
