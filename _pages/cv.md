@@ -73,7 +73,7 @@ Website: [https://masongao.github.io](https://masongao.github.io)
 
 ---
 
-## Conference Talks & Presentations
+## Talks
 
 ### 2025
 
@@ -103,7 +103,7 @@ Website: [https://masongao.github.io](https://masongao.github.io)
 
 ---
 
-## Grants, Fellowships, and Awards
+## Honors & Awards
 
 - 2023: National Natural Science Foundation of China (国家自然科学基金理论物理专款项目)
 - 2023: China Postdoctoral Science Foundation (中国博士后科学基金第74批面上资助)
