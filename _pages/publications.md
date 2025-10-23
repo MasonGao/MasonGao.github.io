@@ -307,17 +307,19 @@ function copyBibtex(id) {
   position: absolute;
   top: 10px;
   right: 10px;
-  padding: 5px 8px;
-  background-color: #28a745;
-  color: white;
-  border: none;
-  border-radius: 4px;
+  padding: 6px 10px;
+  background-color: transparent;
+  color: #333;
+  border: 1px solid #333;
+  border-radius: 6px;
   font-size: 0.8rem;
   cursor: pointer;
-  transition: all 0.3s;
+  transition: all 0.3s ease;
   opacity: 0;
   visibility: hidden;
   z-index: 10;
+  backdrop-filter: blur(4px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .bibtex:hover .copy-btn {
@@ -326,13 +328,16 @@ function copyBibtex(id) {
 }
 
 .copy-btn:hover {
-  background-color: #218838;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-color: #000;
   transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .copy-btn:active {
-  background-color: #1e7e34;
+  background-color: rgba(0, 0, 0, 0.1);
   transform: scale(0.95);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
 
