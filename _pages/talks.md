@@ -4,6 +4,15 @@ title: Talks
 permalink: /talks/
 ---
 
+### 2025
+
+**Transformer-based Learning of BK Evolution and DIS Cross Sections**  
+Meisen Gao  
+*[2025 Saturated Glue (SURGE) Collaboration Meeting and Workshop](https://indico.global/event/13890/overview)*  
+University of California, Los Angeles (UCLA)  
+June 24, 2025  
+(Breakout session discussion)
+
 ### 2024
 
 **[QCD resummation of dijet and photon + jet azimuthal decorrelations in p-p and p-A collisions](https://indico.ihep.ac.cn/event/21455/contributions/154611/)**  
