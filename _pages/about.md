@@ -4,9 +4,9 @@ title: About
 permalink: /about/
 ---
 
-## Meisen Gao's Group
+## Meisen Gao Group
 
-Welcome to Meisen Gao's research group at the School of Physics, East China University of Science and Technology (ECUST). 
+Welcome to Meisen Gao Group at the School of Physics, East China University of Science and Technology (ECUST). 
 
 Our research focuses on theoretical and phenomenological aspects of high-energy particle physics, with emphasis on understanding the fundamental interactions described by Quantum Chromodynamics (QCD). We develop advanced theoretical tools and computational methods to make precise predictions for collider experiments, including those at the Large Hadron Collider (LHC), future Electron-Ion Collider (EIC), and other facilities.
 
