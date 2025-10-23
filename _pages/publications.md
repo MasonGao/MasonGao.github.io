@@ -11,11 +11,13 @@ permalink: /publications/
 
 <div class="publication">
   <div class="pub-row">
-    <div class="pub-image">
-      <img src="{{ '/assets/img/publications/placeholder.svg' | relative_url }}" alt="Publication preview">
+    <div class="pub-left">
+      <div class="venue-badge-top">arXiv</div>
+      <div class="pub-image">
+        <img src="{{ '/assets/img/publications/placeholder.svg' | relative_url }}" alt="Publication preview">
+      </div>
     </div>
     <div class="pub-content">
-      <div class="venue-badge-top">arXiv</div>
       <div class="pub-title">Accessing nucleon transversity with one-point energy correlators</div>
       <div class="pub-authors"><span class="author-self">M. S. Gao</span>, Z. B. Kang, W. C. Li, D. Y. Shao</div>
       <div class="pub-venue"><em>e-Print: 2509.15809</em></div>
@@ -46,11 +48,13 @@ permalink: /publications/
 
 <div class="publication">
   <div class="pub-row">
-    <div class="pub-image">
-      <img src="{{ '/assets/img/publications/placeholder.svg' | relative_url }}" alt="Publication preview">
+    <div class="pub-left">
+      <div class="venue-badge-top">JHEP</div>
+      <div class="pub-image">
+        <img src="{{ '/assets/img/publications/placeholder.svg' | relative_url }}" alt="Publication preview">
+      </div>
     </div>
     <div class="pub-content">
-      <div class="venue-badge-top">JHEP</div>
       <div class="pub-title">N³LL + O(α<sub>s</sub><sup>2</sup>) predictions of lepton–jet azimuthal distribution in DIS</div>
       <div class="pub-authors">S. Fang, <span class="author-self">M. S. Gao</span>, H. T. Li, D. Y. Shao</div>
       <div class="pub-venue"><em>JHEP</em> <strong>01</strong>, 029 (2025)</div>
@@ -84,11 +88,13 @@ permalink: /publications/
 
 <div class="publication">
   <div class="pub-row">
-    <div class="pub-image">
-      <img src="{{ '/assets/img/publications/placeholder.svg' | relative_url }}" alt="Publication preview">
+    <div class="pub-left">
+      <div class="venue-badge-top">JHEP</div>
+      <div class="pub-image">
+        <img src="{{ '/assets/img/publications/paper-2023-1.png' | relative_url }}" alt="Publication preview">
+      </div>
     </div>
     <div class="pub-content">
-      <div class="venue-badge-top">JHEP</div>
       <div class="pub-title">QCD resummation of dijet azimuthal decorrelations in <em>pp</em> and <em>pA</em></div>
       <div class="pub-authors"><span class="author-self">M. S. Gao</span>, Z. B. Kang, D. Y. Shao, J. Terry, C. Zhang</div>
       <div class="pub-venue"><em>JHEP</em> <strong>10</strong> (2023) 013</div>
@@ -120,11 +126,13 @@ permalink: /publications/
 
 <div class="publication">
   <div class="pub-row">
-    <div class="pub-image">
-      <img src="{{ '/assets/img/publications/placeholder.svg' | relative_url }}" alt="Publication preview">
+    <div class="pub-left">
+      <div class="venue-badge-top">JHEP</div>
+      <div class="pub-image">
+        <img src="{{ '/assets/img/publications/placeholder.svg' | relative_url }}" alt="Publication preview">
+      </div>
     </div>
     <div class="pub-content">
-      <div class="venue-badge-top">JHEP</div>
       <div class="pub-title">Simultaneous CTEQ-TEA extraction of PDFs and SMEFT parameters from jet and <em>tt̄</em> data</div>
       <div class="pub-authors">J. Gao, <span class="author-self">M. Gao</span>, T. J. Hobbs, D. Liu, X. Shen</div>
       <div class="pub-venue"><em>JHEP</em> <strong>05</strong> (2023) 003</div>
@@ -158,11 +166,13 @@ permalink: /publications/
 
 <div class="publication">
   <div class="pub-row">
-    <div class="pub-image">
-      <img src="{{ '/assets/img/publications/placeholder.svg' | relative_url }}" alt="Publication preview">
+    <div class="pub-left">
+      <div class="venue-badge-top">Phys. Rev. D</div>
+      <div class="pub-image">
+        <img src="{{ '/assets/img/publications/placeholder.svg' | relative_url }}" alt="Publication preview">
+      </div>
     </div>
     <div class="pub-content">
-      <div class="venue-badge-top">Phys. Rev. D</div>
       <div class="pub-title">Differential distributions for single top-quark production at the LHeC</div>
       <div class="pub-authors"><span class="author-self">M. S. Gao</span>, J. Gao</div>
       <div class="pub-venue"><em>Phys. Rev. D</em> <strong>104</strong> (2021) 053005</div>
@@ -194,11 +204,13 @@ permalink: /publications/
 
 <div class="publication">
   <div class="pub-row">
-    <div class="pub-image">
-      <img src="{{ '/assets/img/publications/placeholder.svg' | relative_url }}" alt="Publication preview">
+    <div class="pub-left">
+      <div class="venue-badge-top">JHEP</div>
+      <div class="pub-image">
+        <img src="{{ '/assets/img/publications/placeholder.svg' | relative_url }}" alt="Publication preview">
+      </div>
     </div>
     <div class="pub-content">
-      <div class="venue-badge-top">JHEP</div>
       <div class="pub-title">Top-quark mass determination from <em>t</em>-channel single-top at the LHC</div>
       <div class="pub-authors"><span class="author-self">M. S. Gao</span>, S. R. Yuan, J. Gao</div>
       <div class="pub-venue"><em>JHEP</em> <strong>04</strong> (2021) 054</div>
@@ -269,21 +281,37 @@ function toggleBib(id) {
   background-color: #fafafa;
   border-radius: 8px;
   transition: background-color 0.3s;
-  position: relative;
 }
 
 .pub-row:hover {
   background-color: #f0f0f0;
 }
 
-.pub-image {
+.pub-left {
   flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.venue-badge-top {
+  padding: 6px 14px;
+  background-color: #28a745;
+  color: white;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  width: 200px;
+}
+
+.pub-image {
   width: 200px;
   height: 150px;
   border-radius: 6px;
   overflow: hidden;
   background-color: #e8e8e8;
-  position: relative;
 }
 
 .pub-image img {
@@ -292,24 +320,8 @@ function toggleBib(id) {
   object-fit: cover;
 }
 
-.venue-badge-top {
-  position: absolute;
-  top: 1rem;
-  left: 1rem;
-  padding: 6px 14px;
-  background-color: #28a745;
-  color: white;
-  border-radius: 4px;
-  font-size: 0.85rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  z-index: 10;
-}
-
 .pub-content {
   flex: 1;
-  position: relative;
-  padding-left: 0;
 }
 
 .pub-title {
@@ -433,14 +445,17 @@ function toggleBib(id) {
     flex-direction: column;
   }
   
-  .pub-image {
+  .pub-left {
     width: 100%;
-    height: 200px;
   }
   
   .venue-badge-top {
-    top: 0.5rem;
-    left: 0.5rem;
+    width: 100%;
+  }
+  
+  .pub-image {
+    width: 100%;
+    height: 200px;
   }
   
   .year {
@@ -450,9 +465,5 @@ function toggleBib(id) {
 </style>
 
 <p style="margin-top: 3rem; color: #757575; font-size: 0.9rem;">
-  <strong>Note:</strong> Underlined names indicate group members. Citation counts from INSPIRE-HEP are approximate and may not reflect the most current numbers.
-</p>
-
-<p style="margin-top: 1rem; color: #757575; font-size: 0.9rem;">
-  <strong>Images:</strong> To add figures from your papers, place them in <code>assets/img/publications/</code> and update the image paths above.
+  <strong>Note:</strong> Underlined names indicate group members. Citation counts from INSPIRE-HEP are approximate.
 </p>
