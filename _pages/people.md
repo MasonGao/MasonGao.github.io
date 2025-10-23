@@ -24,7 +24,7 @@ permalink: /people/
 
 ## Graduate Students
 
-*We are actively recruiting graduate students! See the [Join Us](/joining/) page for more information.*
+*We are establishing our research group at ECUST. Recruitment information will be posted in due course.*
 
 ---
 
@@ -37,17 +37,4 @@ permalink: /people/
 ## Alumni
 
 *List of former group members will appear here as the group grows.*
-
----
-
-## Collaborators
-
-We actively collaborate with researchers from institutions worldwide, including:
-
-- University of California, Los Angeles (UCLA)
-- Fudan University
-- Shanghai Jiao Tong University
-- Los Alamos National Laboratory
-- Brookhaven National Laboratory
-- And many others...
 

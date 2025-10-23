@@ -4,106 +4,72 @@ title: Research
 permalink: /research/
 ---
 
-Our research focuses on various aspects of high-energy physics phenomenology, with emphasis on quantum chromodynamics (QCD) and its applications to collider physics.
+Our research focuses on theoretical high-energy physics phenomenology, with emphasis on quantum chromodynamics (QCD) and its applications to collider physics.
 
 ## Jets & Perturbative QCD
 
-### Jet Resummation
-
-We develop and apply resummation techniques to achieve high-precision predictions for jet observables. Recent work includes:
+We develop and apply resummation techniques to achieve high-precision predictions for jet observables:
 
 - **N³LL + O(α_s²) predictions** for lepton–jet azimuthal distributions in deep inelastic scattering (DIS)
 - **QCD resummation** of dijet azimuthal decorrelations in proton-proton (*pp*) and proton-nucleus (*pA*) collisions
 - Application of Soft-Collinear Effective Theory (SCET) to jet physics
-
-### Jet Substructure
-
-Investigation of the internal structure of jets to probe fundamental QCD dynamics and search for new physics at the LHC.
+- Investigation of jet substructure to probe fundamental QCD dynamics
 
 ---
 
 ## Small-*x* QCD & Color Glass Condensate
 
-### High-Energy QCD Dynamics
-
-At very high energies, the density of gluons in hadrons becomes so large that nonlinear effects become important. This regime is described by the **Color Glass Condensate (CGC)** effective theory.
-
-Our research includes:
+At very high energies, the density of gluons in hadrons becomes so large that nonlinear effects become important. This regime is described by the Color Glass Condensate (CGC) effective theory:
 
 - **BK evolution fits** to HERA deep inelastic scattering data
 - Predictions for forward particle production at the LHC
-- Phenomenology for the future **Electron-Ion Collider (EIC)**
-
-### Transverse Momentum Distributions
-
-We study transverse momentum dependent parton distribution functions (TMDs) and energy correlators, including:
-
+- Phenomenology for the future Electron-Ion Collider (EIC)
 - **One-point energy correlators** for accessing nucleon transversity
-- Connections between energy correlators and TMDs
+- Transverse momentum dependent parton distribution functions (TMDs)
 
 ---
 
 ## Top-quark Physics
 
-### Precision Top-quark Measurements
-
-The top quark is the heaviest known elementary particle, and its properties provide crucial tests of the Standard Model. Our work includes:
+The top quark is the heaviest known elementary particle, providing crucial tests of the Standard Model:
 
 - **Top-quark mass determination** from *t*-channel single-top production at the LHC
-- Differential distributions for **single top-quark production** at future colliders (e.g., LHeC)
+- Differential distributions for single top-quark production at future colliders
 - Top-quark pair production in the context of SMEFT
-
-### Effective Field Theory for Top Physics
-
-We use the **Standard Model Effective Field Theory (SMEFT)** framework to study potential new physics effects in top-quark processes.
+- Applications of Standard Model Effective Field Theory (SMEFT) to study potential new physics effects
 
 ---
 
-## Effective Field Theory Applications
+## Effective Field Theory
 
-### SMEFT Phenomenology
-
-We apply the SMEFT framework to simultaneously extract parton distribution functions (PDFs) and new physics parameters from collider data:
+We apply effective field theory methods to high-energy processes:
 
 - **Simultaneous extraction** of CTEQ-TEA PDFs and SMEFT parameters from jet and *tt̄* data
-- Developing strategies to disentangle PDF uncertainties from new physics effects
-
-### Other EFT Applications
-
 - Soft-Collinear Effective Theory (SCET) for jet physics
-- Heavy Quark Effective Theory (HQET) applications
+- Strategies to disentangle PDF uncertainties from new physics effects
 
 ---
 
 ## AI/ML for High-Energy Physics
 
-### Machine Learning Surrogates
-
-Theoretical predictions in high-energy physics often require computationally expensive calculations. We develop **machine learning methods** to create fast, accurate surrogates:
+We develop machine learning methods to create fast, accurate surrogates for computationally expensive theoretical calculations:
 
 - Neural network emulators for QCD evolution
 - Gaussian process regression for theoretical predictions
 - Applications to PDF fitting and Monte Carlo event generation
-
-### Data Analysis
-
-Applying modern machine learning techniques to:
-
-- Event classification and reconstruction
-- Optimization of experimental observables
-- Anomaly detection for new physics searches
+- Event classification and optimization of experimental observables
 
 ---
 
 ## Collaborations
 
-We actively collaborate with experimental groups at:
+We actively collaborate with theoretical groups at:
 
-- Large Hadron Collider (LHC)
-- Future Electron-Ion Collider (EIC)
-- Other international facilities
+- [University of California, Los Angeles (UCLA)](https://kang-research-group.physics.ucla.edu/)
+- [Fudan University](https://shaodingyu.github.io/)
+- [Shanghai Jiao Tong University](https://fmnlo.sjtu.edu.cn/)
 
-We also maintain close collaborations with theoretical groups worldwide, including institutions in the US, Europe, and Asia.
+Our research is closely connected to experiments at the Large Hadron Collider (LHC), Relativistic Heavy Ion Collider (RHIC), and the future Electron-Ion Collider (EIC).
 
 ---
 
@@ -115,6 +81,3 @@ Our research involves developing and using various software tools:
 - **Monte Carlo generators:** Pythia, Herwig, Sherpa
 - **Machine learning frameworks:** TensorFlow, PyTorch, scikit-learn
 - **Symbolic computation:** Mathematica, SymPy
-
-Many of our codes are publicly available or will be made available upon publication.
-
