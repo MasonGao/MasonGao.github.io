@@ -102,10 +102,13 @@ Email: msgao@ecust.edu.cn
 
 ---
 
-## Grants and Fellowships
+## Grants, Fellowships, and Awards
 
 - 2023: National Natural Science Foundation of China (国家自然科学基金理论物理专款项目)
 - 2023: China Postdoctoral Science Foundation (中国博士后科学基金第74批面上资助)
 - 2023: Shanghai Super Postdoctoral Incentive Program
+- 2022: Fudan Super Postdoc Incentive Plan, Fudan University
+- 2021: Annual Outstanding Student, Shanghai Key Laboratory for Particle Physics and Cosmology
+- 2021: Guanghua Scholarship, Shanghai Jiao Tong University
 
 
