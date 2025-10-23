@@ -61,18 +61,6 @@ We develop machine learning methods to create fast, accurate surrogates for comp
 
 ---
 
-## Collaborations
-
-We actively collaborate with theoretical groups at:
-
-- [University of California, Los Angeles (UCLA)](https://kang-research-group.physics.ucla.edu/)
-- [Fudan University](https://shaodingyu.github.io/)
-- [Shanghai Jiao Tong University](https://fmnlo.sjtu.edu.cn/)
-
-Our research is closely connected to experiments at the Large Hadron Collider (LHC), Relativistic Heavy Ion Collider (RHIC), and the future Electron-Ion Collider (EIC).
-
----
-
 ## Software & Tools
 
 Our research involves developing and using various software tools:
