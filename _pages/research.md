@@ -49,8 +49,8 @@ Developing machine learning methods for theoretical calculations:
 
 ## Software & Tools
 
-We develop and use:
-- **QCD evolution:** DGLAP, BK/JIMWLK
-- **Monte Carlo:** Pythia, Herwig, Sherpa
+Our research utilizes various tools and frameworks in high-energy physics:
+- **QCD evolution:** DGLAP, BK/JIMWLK, LHAPDF
+- **Monte Carlo:** Pythia, Herwig, Sherpa, MadGraph
 - **Machine learning:** TensorFlow, PyTorch, scikit-learn
-- **Symbolic computation:** Mathematica, SymPy
+- **Symbolic computation:** Mathematica, SymPy, Julia
