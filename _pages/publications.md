@@ -18,6 +18,7 @@ permalink: /publications/
 
 .page-content {
   margin-top: 0 !important;
+  padding-top: 0.5rem !important;
 }
 </style>
 
