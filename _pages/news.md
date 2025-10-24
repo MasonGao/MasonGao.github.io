@@ -17,7 +17,10 @@ permalink: /news/
 
 .page-content {
   margin-top: 0 !important;
-  padding-top: 0.5rem !important;
+}
+
+.page-content > *:first-child {
+  margin-top: 0.5rem !important;
 }
 
 h2 {
