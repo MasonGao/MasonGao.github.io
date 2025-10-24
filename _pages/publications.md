@@ -313,18 +313,21 @@ function copyBibtex(id) {
 
 .pub-links a.bib-btn {
   padding: 5px 14px;
-  background-color: #6c757d;
-  color: white !important;
+  background-color: transparent;
+  color: #333 !important;
+  border: 1px solid #333;
   border-radius: 4px;
   font-size: 0.85rem;
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: all 0.3s;
 }
 
 .pub-links a.bib-btn:hover {
-  background-color: #5a6268;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-color: #000;
+  color: #000 !important;
 }
 
 .bibtex {
