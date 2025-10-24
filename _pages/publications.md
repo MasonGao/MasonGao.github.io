@@ -25,7 +25,7 @@ permalink: /publications/
 }
 
 .publications {
-  margin-top: 0.5rem !important;
+  margin-top: 0.25rem !important;
 }
 </style>
 

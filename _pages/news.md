@@ -26,7 +26,7 @@ permalink: /news/
 h2 {
   font-size: 1.2rem !important;
   font-weight: 600;
-  margin-top: 0.5rem !important;
+  margin-top: 0.25rem !important;
   margin-bottom: 1rem;
 }
 </style>
