@@ -9,6 +9,15 @@ permalink: /publications/
 .page-title {
   font-size: 1.5rem !important;
   font-weight: 600;
+  margin-bottom: 0.5rem !important;
+}
+
+.page-header {
+  margin-bottom: 1rem !important;
+}
+
+.page-content {
+  margin-top: 0 !important;
 }
 </style>
 
