@@ -5,6 +5,13 @@ page_title: Selected Publications
 permalink: /publications/
 ---
 
+<style>
+.page-title {
+  font-size: 1.5rem !important;
+  font-weight: 600;
+}
+</style>
+
 <!-- 
 To update INSPIRE record IDs:
 1. Go to https://inspirehep.net/

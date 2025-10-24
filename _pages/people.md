@@ -4,6 +4,27 @@ title: People
 permalink: /people/
 ---
 
+<style>
+.page-title {
+  font-size: 1.5rem !important;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 1.2rem !important;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.1rem !important;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+</style>
+
 ## Principal Investigator
 
 ### [Meisen Gao](/cv/)

@@ -4,6 +4,13 @@ title: Talks
 permalink: /talks/
 ---
 
+<style>
+.page-title {
+  font-size: 1.5rem !important;
+  font-weight: 600;
+}
+</style>
+
 <div class="talks">
 
 <div class="talk">

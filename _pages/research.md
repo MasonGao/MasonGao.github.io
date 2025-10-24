@@ -4,6 +4,20 @@ title: Research
 permalink: /research/
 ---
 
+<style>
+.page-title {
+  font-size: 1.5rem !important;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 1.2rem !important;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+</style>
+
 ## Jets & Perturbative QCD
 
 We develop high-precision predictions using resummation techniques:
