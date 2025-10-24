@@ -21,7 +21,7 @@ permalink: /publications/
 }
 
 .page-content > *:first-child {
-  margin-top: 0.5rem !important;
+  margin-top: 0.2rem !important;
 }
 </style>
 

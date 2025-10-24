@@ -20,7 +20,7 @@ permalink: /research/
 }
 
 .page-content > *:first-child {
-  margin-top: 0.5rem !important;
+  margin-top: 0.2rem !important;
 }
 
 h2 {
