@@ -20,7 +20,7 @@ permalink: /talks/
 }
 
 .page-content > *:first-child {
-  margin-top: 0.2rem !important;
+  margin-top: 0.1rem !important;
 }
 </style>
 
