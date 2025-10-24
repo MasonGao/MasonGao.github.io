@@ -23,6 +23,10 @@ permalink: /publications/
 .page-content > *:first-child {
   margin-top: 0.1rem !important;
 }
+
+.publications {
+  margin-top: 0.5rem !important;
+}
 </style>
 
 <!-- 

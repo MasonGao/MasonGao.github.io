@@ -22,6 +22,10 @@ permalink: /talks/
 .page-content > *:first-child {
   margin-top: 0.1rem !important;
 }
+
+.talks {
+  margin-top: 0.5rem !important;
+}
 </style>
 
 <div class="talks">
