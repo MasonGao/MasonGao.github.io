@@ -41,6 +41,29 @@ To update INSPIRE record IDs:
 
 <div class="publication">
   <div class="pub-header">
+    <div class="pub-title">Determination of the initial condition for the Balitsky-Kovchegov equation with transformers</div>
+    <div class="pub-year">2025</div>
+  </div>
+  <div class="pub-authors"><span class="author-self">M. S. Gao</span>, Z. B. Kang, J. Penttala, D. Y. Shao</div>
+  <div class="pub-venue"><em>e-Print: <a href="https://arxiv.org/abs/2510.26779" target="_blank">2510.26779</a></em></div>
+  <div class="pub-links">
+    <a class="bib-btn" onclick="toggleBib('bib-2025-0')">BIB</a>
+  </div>
+  <div id="bib-2025-0" class="bibtex" style="display:none;">
+    <button class="copy-btn" onclick="copyBibtex('bib-2025-0')" title="Copy BibTeX">📋</button>
+    <pre>@article{Gao:2025bktransformer,
+  author = {Gao, Mei-Sen and Kang, Zhong-Bo and Penttala, Jani and Shao, Ding-Yu},
+  title = {Determination of the initial condition for the Balitsky-Kovchegov equation with transformers},
+  year = {2025},
+  eprint = {2510.26779},
+  archivePrefix = {arXiv},
+  primaryClass = {hep-ph}
+}</pre>
+  </div>
+</div>
+
+<div class="publication">
+  <div class="pub-header">
     <div class="pub-title">Accessing nucleon transversity with one-point energy correlators</div>
     <div class="pub-year">2025</div>
   </div>

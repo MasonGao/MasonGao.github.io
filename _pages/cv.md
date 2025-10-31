@@ -43,31 +43,35 @@ Website: [https://masongao.github.io](https://masongao.github.io)
 
 ### 2025
 
-1. **[Accessing nucleon transversity with one-point energy correlators](https://arxiv.org/abs/2509.15809)**  
+1. **[Determination of the initial condition for the Balitsky-Kovchegov equation with transformers](https://arxiv.org/pdf/2510.26779)**  
+   **M. S. Gao**, Z. B. Kang, J. Penttala, D. Y. Shao  
+   *e-Print: 2510.26779*
+
+2. **[Accessing nucleon transversity with one-point energy correlators](https://arxiv.org/abs/2509.15809)**  
    **M. S. Gao**, Z. B. Kang, W. C. Li, D. Y. Shao  
    *e-Print: 2509.15809*
 
-2. **[N³LL + O(α_s²) predictions of lepton–jet azimuthal distribution in DIS](https://doi.org/10.1007/JHEP01(2025)029)**  
+3. **[N³LL + O(α_s²) predictions of lepton–jet azimuthal distribution in DIS](https://doi.org/10.1007/JHEP01(2025)029)**  
    S. Fang, **M. S. Gao**, H. T. Li, D. Y. Shao  
    *JHEP* **01**, 029 (2025)
 
 ### 2023
 
-3. **[QCD resummation of dijet azimuthal decorrelations in *pp* and *pA*](https://doi.org/10.1007/JHEP10(2023)013)**  
+4. **[QCD resummation of dijet azimuthal decorrelations in *pp* and *pA*](https://doi.org/10.1007/JHEP10(2023)013)**  
    **M. S. Gao**, Z. B. Kang, D. Y. Shao, J. Terry, C. Zhang  
    *JHEP* **10** (2023) 013
 
-4. **[Simultaneous CTEQ-TEA extraction of PDFs and SMEFT parameters from jet and *tt̄* data](https://doi.org/10.1007/JHEP05(2023)003)**  
+5. **[Simultaneous CTEQ-TEA extraction of PDFs and SMEFT parameters from jet and *tt̄* data](https://doi.org/10.1007/JHEP05(2023)003)**  
    J. Gao, **M. Gao**, T. J. Hobbs, D. Liu, X. Shen  
    *JHEP* **05** (2023) 003
 
 ### 2021
 
-5. **[Differential distributions for single top-quark production at the LHeC](https://doi.org/10.1103/PhysRevD.104.053005)**  
+6. **[Differential distributions for single top-quark production at the LHeC](https://doi.org/10.1103/PhysRevD.104.053005)**  
    **M. S. Gao**, J. Gao  
    *Phys. Rev. D* **104** (2021) 053005
 
-6. **[Top-quark mass determination from *t*-channel single-top at the LHC](https://doi.org/10.1007/JHEP04(2021)054)**  
+7. **[Top-quark mass determination from *t*-channel single-top at the LHC](https://doi.org/10.1007/JHEP04(2021)054)**  
    **M. S. Gao**, S. R. Yuan, J. Gao  
    *JHEP* **04** (2021) 054
 
