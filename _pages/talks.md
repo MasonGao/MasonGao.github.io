@@ -122,7 +122,7 @@ permalink: /talks/
 }
 
 .talk {
-  margin-bottom: 1rem; /* tighter spacing between items */
+  margin-bottom: 0.5rem; /* tighter spacing between items */
   padding: 1.5rem;
   background-color: transparent; /* static transparent background */
   border-radius: 8px;
