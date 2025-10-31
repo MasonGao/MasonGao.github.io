@@ -13,7 +13,7 @@ permalink: /publications/
 }
 
 .page-header {
-  margin-bottom: 1rem !important;
+  margin-bottom: 0.5rem !important;
 }
 
 .page-content {

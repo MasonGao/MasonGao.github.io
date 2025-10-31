@@ -134,9 +134,10 @@
 }
 
 .page-header {
-  margin-bottom: $spacing-unit;
+  margin-bottom: 0.5rem; // tighter gap below the line
   border-bottom: 2px solid $border-color;
-  padding-bottom: $small-spacing;
+  padding-top: 0.5rem;   // equalize space above title
+  padding-bottom: 0.5rem; // equalize space below title to the line
 }
 
 .page-title {
