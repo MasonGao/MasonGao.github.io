@@ -123,13 +123,8 @@ permalink: /talks/
 .talk {
   margin-bottom: 2rem;
   padding: 1.5rem;
-  background-color: #fafafa;
+  background-color: transparent; /* static transparent background */
   border-radius: 8px;
-  transition: background-color 0.3s;
-}
-
-.talk:hover {
-  background-color: #f0f0f0;
 }
 
 .talk-title {
