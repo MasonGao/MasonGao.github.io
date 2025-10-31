@@ -25,7 +25,7 @@ permalink: /talks/
 }
 
 .talks {
-  margin-top: 0.25rem !important;
+  margin-top: 0.1rem !important; /* align first item with Research first section */
 }
 </style>
 
@@ -122,7 +122,7 @@ permalink: /talks/
 }
 
 .talk {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem; /* tighter spacing between items */
   padding: 1.5rem;
   background-color: transparent; /* static transparent background */
   border-radius: 8px;
