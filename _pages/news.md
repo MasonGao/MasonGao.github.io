@@ -31,11 +31,17 @@ h2 {
 }
 </style>
 
-## 2025
+{% assign all_news = site.news | sort: 'date' | reverse %}
 
-**October 31, 2025**
-- New preprint released: "Determination of the initial condition for the Balitsky-Kovchegov equation with transformers". [PDF](https://arxiv.org/pdf/2510.26779)
+{% assign current_year = nil %}
+{% for item in all_news %}
+  {% assign year = item.date | date: '%Y' %}
+  {% if year != current_year %}
+## {{ year }}
+  {% assign current_year = year %}
+  {% endif %}
 
-**October 23, 2025**
-- Our group website is now online! Welcome to Meisen Gao Group at ECUST School of Physics.
+**{{ item.date | date: '%B %d, %Y' }}**
+- {{ item.content | markdownify | strip_newlines }}
+{% endfor %}
 
