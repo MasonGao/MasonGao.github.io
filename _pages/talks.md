@@ -122,8 +122,8 @@ permalink: /talks/
 }
 
 .talk {
-  margin-bottom: 0.5rem; /* tighter spacing between items */
-  padding: 1.5rem;
+  margin-bottom: 0.35rem; /* tighter spacing between items */
+  padding: 1rem; /* reduce inner padding to tighten block height */
   background-color: transparent; /* static transparent background */
   border-radius: 8px;
 }
