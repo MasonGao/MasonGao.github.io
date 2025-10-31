@@ -50,7 +50,7 @@ To update INSPIRE record IDs:
     <a class="bib-btn" onclick="toggleBib('bib-2025-0')">BIB</a>
   </div>
   <div id="bib-2025-0" class="bibtex" style="display:none;">
-    <button class="copy-btn" onclick="copyBibtex('bib-2025-0')" title="Copy BibTeX">📋</button>
+    <button class="copy-btn" onclick="copyBibtex('bib-2025-0')" title="Copy BibTeX">copy</button>
     <pre>@article{Gao:2025bktransformer,
   author = {Gao, Mei-Sen and Kang, Zhong-Bo and Penttala, Jani and Shao, Ding-Yu},
   title = {Determination of the initial condition for the Balitsky-Kovchegov equation with transformers},
