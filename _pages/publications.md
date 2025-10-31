@@ -73,7 +73,7 @@ To update INSPIRE record IDs:
     <a class="bib-btn" onclick="toggleBib('bib-2025-1')">BIB</a>
   </div>
   <div id="bib-2025-1" class="bibtex" style="display:none;">
-    <button class="copy-btn" onclick="copyBibtex('bib-2025-1')" title="Copy BibTeX">📋</button>
+    <button class="copy-btn" onclick="copyBibtex('bib-2025-1')" title="Copy BibTeX">copy</button>
     <pre>@article{Gao:2025transversity,
   author = {Gao, Mei-Sen and Kang, Zhong-Bo and Li, Wen-Chen and Shao, Ding-Yu},
   title = {Accessing nucleon transversity with one-point energy correlators},
@@ -96,7 +96,7 @@ To update INSPIRE record IDs:
     <a class="bib-btn" onclick="toggleBib('bib-2025-2')">BIB</a>
   </div>
   <div id="bib-2025-2" class="bibtex" style="display:none;">
-    <button class="copy-btn" onclick="copyBibtex('bib-2025-2')" title="Copy BibTeX">📋</button>
+    <button class="copy-btn" onclick="copyBibtex('bib-2025-2')" title="Copy BibTeX">copy</button>
     <pre>@article{Fang:2025jhep,
   author = {Fang, Shen and Gao, Mei-Sen and Li, Hai-Tao and Shao, Ding-Yu},
   title = {N³LL + O(α_s²) predictions of lepton–jet azimuthal distribution in DIS},
@@ -120,7 +120,7 @@ To update INSPIRE record IDs:
     <a class="bib-btn" onclick="toggleBib('bib-2023-1')">BIB</a>
   </div>
   <div id="bib-2023-1" class="bibtex" style="display:none;">
-    <button class="copy-btn" onclick="copyBibtex('bib-2023-1')" title="Copy BibTeX">📋</button>
+    <button class="copy-btn" onclick="copyBibtex('bib-2023-1')" title="Copy BibTeX">copy</button>
     <pre>@article{Gao:2023dijet,
   author = {Gao, Mei-Sen and Kang, Zhong-Bo and Shao, Ding-Yu and Terry, John and Zhang, Cheng},
   title = {QCD resummation of dijet azimuthal decorrelations in pp and pA},
@@ -144,7 +144,7 @@ To update INSPIRE record IDs:
     <a class="bib-btn" onclick="toggleBib('bib-2023-2')">BIB</a>
   </div>
   <div id="bib-2023-2" class="bibtex" style="display:none;">
-    <button class="copy-btn" onclick="copyBibtex('bib-2023-2')" title="Copy BibTeX">📋</button>
+    <button class="copy-btn" onclick="copyBibtex('bib-2023-2')" title="Copy BibTeX">copy</button>
     <pre>@article{Gao:2023smeft,
   author = {Gao, Jun and Gao, Meisen and Hobbs, T. J. and Liu, Deping and Shen, Xiaoxu},
   title = {Simultaneous CTEQ-TEA extraction of PDFs and SMEFT parameters from jet and tt̄ data},
@@ -168,7 +168,7 @@ To update INSPIRE record IDs:
     <a class="bib-btn" onclick="toggleBib('bib-2021-1')">BIB</a>
   </div>
   <div id="bib-2021-1" class="bibtex" style="display:none;">
-    <button class="copy-btn" onclick="copyBibtex('bib-2021-1')" title="Copy BibTeX">📋</button>
+    <button class="copy-btn" onclick="copyBibtex('bib-2021-1')" title="Copy BibTeX">copy</button>
     <pre>@article{Gao:2021lhec,
   author = {Gao, Mei-Sen and Gao, Jun},
   title = {Differential distributions for single top-quark production at the LHeC},
@@ -192,7 +192,7 @@ To update INSPIRE record IDs:
     <a class="bib-btn" onclick="toggleBib('bib-2021-2')">BIB</a>
   </div>
   <div id="bib-2021-2" class="bibtex" style="display:none;">
-    <button class="copy-btn" onclick="copyBibtex('bib-2021-2')" title="Copy BibTeX">📋</button>
+    <button class="copy-btn" onclick="copyBibtex('bib-2021-2')" title="Copy BibTeX">copy</button>
     <pre>@article{Gao:2021topmass,
   author = {Gao, Mei-Sen and Yuan, Shuo-Ren and Gao, Jun},
   title = {Top-quark mass determination from t-channel single-top at the LHC},
@@ -232,20 +232,12 @@ function copyBibtex(id) {
   
   try {
     document.execCommand('copy');
-    
-    // Show feedback
+    // simple text feedback only
     var button = event.target;
     var originalText = button.innerHTML;
-    button.innerHTML = '✓';
-    button.style.backgroundColor = 'rgba(0, 0, 0, 0.1)';
-    button.style.borderColor = '#28a745';
-    button.style.color = '#28a745';
-    
+    button.innerHTML = 'copied';
     setTimeout(function() {
       button.innerHTML = originalText;
-      button.style.backgroundColor = 'transparent';
-      button.style.borderColor = '#333';
-      button.style.color = '#333';
     }, 1000);
     
   } catch (err) {
@@ -356,37 +348,13 @@ function copyBibtex(id) {
   position: absolute;
   top: 10px;
   right: 10px;
-  padding: 6px 10px;
+  padding: 4px 10px;
   background-color: transparent;
-  color: #333;
-  border: 1px solid #333;
-  border-radius: 6px;
+  color: #333; /* same as text */
+  border: 1px solid currentColor; /* border same color as text */
+  border-radius: 4px;
   font-size: 0.8rem;
   cursor: pointer;
-  transition: all 0.3s ease;
-  opacity: 0;
-  visibility: hidden;
-  z-index: 10;
-  backdrop-filter: blur(4px);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-.bibtex:hover .copy-btn {
-  opacity: 1;
-  visibility: visible;
-}
-
-.copy-btn:hover {
-  background-color: rgba(0, 0, 0, 0.05);
-  border-color: #000;
-  transform: scale(1.05);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-}
-
-.copy-btn:active {
-  background-color: rgba(0, 0, 0, 0.1);
-  transform: scale(0.95);
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
 
