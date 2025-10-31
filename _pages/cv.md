@@ -43,7 +43,7 @@ Website: [https://masongao.github.io](https://masongao.github.io)
 
 ### 2025
 
-1. **[Determination of the initial condition for the Balitsky-Kovchegov equation with transformers](https://arxiv.org/pdf/2510.26779)**  
+1. **[Determination of the initial condition for the Balitsky-Kovchegov equation with transformers](https://arxiv.org/abs/2510.26779)**  
    **M. S. Gao**, Z. B. Kang, J. Penttala, D. Y. Shao  
    *e-Print: 2510.26779*
 
