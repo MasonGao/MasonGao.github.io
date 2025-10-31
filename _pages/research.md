@@ -16,6 +16,7 @@ permalink: /research/
 
 .page-content {
   margin-top: 0 !important;
+  padding-top: 0.5rem !important; /* reduce gap below title without moving title */
 }
 
 .page-content > *:first-child {
