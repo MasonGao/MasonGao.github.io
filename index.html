@@ -77,7 +77,7 @@ h2 {
 .news li {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem; /* reduced spacing between news items */
   text-align: left;
 }
 
@@ -92,6 +92,11 @@ h2 {
 .news .content {
   flex: 1;
   text-align: left;
+}
+
+/* increase spacing between homepage sections */
+.page > section + section {
+  margin-top: 2rem;
 }
 </style>
 
