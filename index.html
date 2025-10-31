@@ -77,7 +77,7 @@ h2 {
 .news li {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 0.5rem; /* reduced spacing between news items */
+  margin-bottom: 0.75rem; /* balanced spacing between news items */
   text-align: left;
 }
 
@@ -101,7 +101,12 @@ h2 {
 
 /* Align homepage top spacing with inner pages */
 .page-content {
-  padding-top: 0.5rem !important; /* reduce large default top padding from layout */
+  padding-top: 0.6rem !important; /* fine-tune to align Latest News title with inner pages */
+}
+
+/* Make Latest News title-to-first-item gap match item spacing */
+.news-section h2 {
+  margin-bottom: 0.75rem !important;
 }
 </style>
 
