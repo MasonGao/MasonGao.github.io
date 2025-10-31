@@ -42,7 +42,8 @@ news_limit: 5
 # Collections
 collections:
   news:
-    output: false
+    output: true
+    permalink: /news/:year/:month/:day/:title/
 
 # Jekyll settings
 markdown: kramdown
