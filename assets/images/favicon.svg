@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <!-- Transparent background; rounded sans "G" in blue (#4285F4) -->
+  <title>G</title>
+  <g>
+    <text x="50%" y="50%" dy="0.33em" text-anchor="middle"
+          font-family="Inter, Poppins, 'Arial Rounded MT Bold', Helvetica, Arial, sans-serif"
+          font-weight="800"
+          font-size="190"
+          fill="#4285F4">G</text>
+  </g>
+</svg>
+
+
