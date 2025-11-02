@@ -78,6 +78,7 @@ h2 {
   display: flex;
   align-items: flex-start;
   margin-bottom: 0.25rem; /* reduced spacing between news items */
+  padding-bottom: 0 !important; /* remove padding-bottom from _layout.scss */
   text-align: left;
   border-bottom: none !important; /* remove horizontal lines */
 }
@@ -93,6 +94,8 @@ h2 {
 .news .content {
   flex: 1;
   text-align: left;
+  line-height: 1.4; /* reduce line-height to minimize bottom space */
+  display: block; /* make it block to better control spacing */
 }
 
 .news .content p {
