@@ -77,8 +77,9 @@ h2 {
 .news li {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 0.75rem; /* balanced spacing between news items */
+  margin-bottom: 0.5rem; /* reduced spacing between news items */
   text-align: left;
+  border-bottom: none !important; /* remove horizontal lines */
 }
 
 .news .date {
@@ -92,11 +93,6 @@ h2 {
 .news .content {
   flex: 1;
   text-align: left;
-}
-
-/* remove divider for last item */
-.news li:last-child {
-  border-bottom: none;
 }
 
 /* increase spacing between homepage sections */
