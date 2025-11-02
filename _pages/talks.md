@@ -33,6 +33,17 @@ permalink: /talks/
 
 <div class="talk">
   <div class="talk-header">
+    <div class="talk-title"><a href="https://indico.ihep.ac.cn/event/25051/contributions/202736/" target="_blank">Determination of the Initial Condition for the Balitsky–Kovchegov Equation with Transformers</a></div>
+    <div class="talk-year">2025</div>
+  </div>
+  <div class="talk-author">Meisen Gao</div>
+  <div class="talk-venue"><em>Fifth Workshop on Quantum Field Theory and Its Applications</em></div>
+  <div class="talk-location">China</div>
+  <div class="talk-date">November 2, 2025</div>
+</div>
+
+<div class="talk">
+  <div class="talk-header">
     <div class="talk-title">Transformer-based Learning of BK Evolution and DIS Cross Sections</div>
     <div class="talk-year">2025</div>
   </div>

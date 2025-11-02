@@ -81,6 +81,9 @@ Website: [https://masongao.github.io](https://masongao.github.io)
 
 ### 2025
 
+- **[Determination of the Initial Condition for the Balitsky–Kovchegov Equation with Transformers](https://indico.ihep.ac.cn/event/25051/contributions/202736/)**  
+  *Fifth Workshop on Quantum Field Theory and Its Applications*, China, November 2, 2025
+
 - **[Transformer-based Learning of BK Evolution and DIS Cross Sections](https://indico.global/event/13890/overview)**  
   *2025 SURGE Collaboration Meeting and Workshop*, UCLA, June 24, 2025 (Breakout session, Online)
 
