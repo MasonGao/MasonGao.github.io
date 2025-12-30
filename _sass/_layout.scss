@@ -309,3 +309,55 @@
   }
 }
 
+// Home page specific adjustments (moved from inline CSS)
+.home {
+  h2 {
+    font-size: 1.5rem !important;
+    font-weight: 600;
+    margin-top: 0 !important;
+    margin-bottom: 0.5rem;
+  }
+
+  .news {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .news li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 0.5rem;
+    text-align: left;
+    border-bottom: none !important;
+  }
+
+  .news .date {
+    font-weight: 600;
+    color: #666;
+    margin-right: 1rem;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .news .content {
+    flex: 1;
+    text-align: left;
+  }
+
+  .news .content p {
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+  }
+
+  // increase spacing between homepage sections
+  .page > section + section {
+    margin-top: 2rem;
+  }
+
+  // Increase spacing below Latest News title only
+  .news-section h2 {
+    margin-bottom: 1rem !important;
+  }
+}
+
