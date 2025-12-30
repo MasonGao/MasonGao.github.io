@@ -31,8 +31,8 @@ h2 {
 }
 </style>
 ## High-Energy Physics Phenomenology
-
- We develop precision QCD predictions for collider observables, spanning jet physics and resummation, small‑*x* dynamics within the CGC framework, and top‑quark phenomenology, leveraging SCET/SMEFT where appropriate. We emphasize systematically improvable calculations with quantified uncertainties, rigorous factorization, and interfaces to global fits and future programs at the LHC and EIC.
+ 
+ We develop precision QCD predictions for collider observables across jet physics and resummation, small‑*x* dynamics within the CGC framework, and top‑quark phenomenology, leveraging soft‑collinear effective theory (SCET) where appropriate. We emphasize systematically improvable calculations with quantified uncertainties, rigorous factorization, and interfaces to global analyses and forthcoming programs at the LHC and EIC.
 
 ---
 
