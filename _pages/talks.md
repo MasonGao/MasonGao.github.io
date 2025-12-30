@@ -10,7 +10,7 @@ talks:
     venue_url: ""
     location: "China"
     date_display: "November 2, 2025"
-    date: 2025-11-02
+    date: "2025-11-02"
     year: 2025
   - title: "Transformer-based Learning of BK Evolution and DIS Cross Sections"
     url: ""
@@ -19,7 +19,7 @@ talks:
     venue_url: "https://indico.global/event/13890/overview"
     location: "University of California, Los Angeles (UCLA)"
     date_display: "June 24, 2025 (Breakout session discussion, Online)"
-    date: 2025-06-24
+    date: "2025-06-24"
     year: 2025
   - title: "QCD resummation of dijet and photon + jet azimuthal decorrelations in p-p and p-A collisions"
     url: "https://indico.ihep.ac.cn/event/21455/contributions/154611/"
@@ -28,7 +28,7 @@ talks:
     venue_url: ""
     location: "Qingdao, China"
     date_display: "April 22, 2024"
-    date: 2024-04-22
+    date: "2024-04-22"
     year: 2024
   - title: "Annual Conference Talk"
     url: ""
@@ -37,7 +37,7 @@ talks:
     venue_url: ""
     location: "Shanghai, China"
     date_display: "December 2023"
-    date: 2023-12-01
+    date: "2023-12-01"
     year: 2023
   - title: "QCD resummation of dijet azimuthal decorrelations in p-p and p-A collisions"
     url: "https://indico.ihep.ac.cn/event/19422/contributions/139075/"
@@ -46,7 +46,7 @@ talks:
     venue_url: ""
     location: "Beijing Computational Science Research Center, Beijing, China"
     date_display: "August 14, 2023"
-    date: 2023-08-14
+    date: "2023-08-14"
     year: 2023
   - title: "Simultaneous extraction of SMEFT parameters and PDFs from top-quark pair data"
     url: ""
@@ -55,7 +55,7 @@ talks:
     venue_url: ""
     location: "Shanghai, China"
     date_display: "December 24, 2022"
-    date: 2022-12-24
+    date: "2022-12-24"
     year: 2022
   - title: "Differential distributions for single top quark production at the LHeC"
     url: "https://indico.cern.ch/event/1072533/overview"
@@ -64,7 +64,7 @@ talks:
     venue_url: "https://indico.cern.ch/event/1072533/overview"
     location: "Santiago de Compostela, Spain & Online"
     date_display: "May 2, 2022 (Poster presentation, online)"
-    date: 2022-05-02
+    date: "2022-05-02"
     year: 2022
 ---
 
@@ -93,8 +93,8 @@ talks:
 }
 </style>
 
-<div class="talks">
-{% assign list = page.talks | sort: 'date' | reverse %}
+  <div class="talks">
+{% assign list = page.talks | sort_natural: 'date' | reverse %}
 {% for t in list %}
 <div class="talk">
   <div class="talk-header">
