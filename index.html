@@ -8,7 +8,8 @@ layout: default
     <section class="news-section">
       <h2>Latest News</h2>
     <ul class="news">
-      {% assign latest_news = site.news | sort: 'date' | reverse %}
+      {% assign news_page = site.pages | where: "permalink", "/news/" | first %}
+      {% assign latest_news = news_page.entries | sort: 'date' | reverse %}
       {% assign limit_count = site.news_limit | default: 3 %}
       {% for item in latest_news limit: limit_count %}
       <li>
