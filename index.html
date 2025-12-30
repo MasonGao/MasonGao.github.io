@@ -24,22 +24,29 @@ layout: default
   <!-- About -->
   <section class="about-section">
     <h2>About</h2>
-    {% capture home_about %}{% include content/home_about.md %}{% endcapture %}
-    {{ home_about | markdownify }}
+    <p>
+      We are based at the School of Physics, East China University of Science and Technology (ECUST). 
+      Our research focuses on <strong>high-energy physics phenomenology</strong>, including jets, perturbative QCD, 
+      effective field theory, and top-quark physics, with a particular emphasis on the intersection of artificial intelligence and high-energy physics.
+    </p>
+    <p>
+      For more information about Gao's background and publications, please see the <a href="{{ '/cv/' | relative_url }}">Curriculum Vitae</a>. You can also explore our <a href="{{ '/research/' | relative_url }}">Research</a>, <a href="{{ '/publications/' | relative_url }}">Publications</a>, <a href="{{ '/talks/' | relative_url }}">Talks</a>, and <a href="{{ '/people/' | relative_url }}">People</a> pages to learn more about the group.
+    </p>
   </section>
   
   <!-- Join Us -->
   <section class="join-section">
     <h2>Join Us</h2>
-    {% capture home_join %}{% include content/home_join.md %}{% endcapture %}
-    {{ home_join | markdownify }}
+    <p><strong>Open Positions:</strong> To be announced.</p>
+    <p>We are establishing our research group at ECUST. Recruitment information for graduate students and postdoctoral researchers will be posted here in due course.</p>
+    <p>If you are interested in our research and would like to learn more about future opportunities, please feel free to contact us.</p>
   </section>
   
   <!-- Collaborations -->
   <section class="collaborations-section">
     <h2>Collaborations</h2>
-    {% capture home_collab %}{% include content/home_collaborations.md %}{% endcapture %}
-    {{ home_collab | markdownify }}
+      <p>We actively collaborate with theoretical groups at: <a href="https://kang-research-group.physics.ucla.edu/" target="_blank" rel="noopener noreferrer">UCLA</a> | <a href="https://shaodingyu.github.io/" target="_blank" rel="noopener noreferrer">Fudan University</a> | <a href="https://fmnlo.sjtu.edu.cn/" target="_blank" rel="noopener noreferrer">Shanghai Jiao Tong University</a></p>
+    <p>Our research is closely connected to experiments at the Large Hadron Collider (LHC), Relativistic Heavy Ion Collider (RHIC), and the future Electron-Ion Collider (EIC). We welcome collaborations. If you are interested in working with us, please feel free to contact us.</p>
   </section>
   
   <!-- Contact -->
