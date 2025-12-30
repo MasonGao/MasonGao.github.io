@@ -30,45 +30,15 @@ h2 {
   margin-bottom: 1rem;
 }
 </style>
-## Jets & Perturbative QCD
+## High-Energy Physics Phenomenology
 
-We develop high-precision predictions using resummation techniques:
-- N³LL + O(α_s²) predictions for lepton–jet azimuthal distributions in DIS
-- QCD resummation of dijet azimuthal decorrelations in *pp* and *pA* collisions
-- Soft-Collinear Effective Theory (SCET) applications
-
----
-
-## Small-*x* QCD & Color Glass Condensate
-
-Understanding QCD dynamics at high energies using the Color Glass Condensate (CGC) framework:
-- BK evolution fits to HERA data
-- Phenomenology for the Electron-Ion Collider (EIC)
-
----
-
-## Top-quark Physics
-
-Precision studies of the heaviest elementary particle:
-- Top-quark mass determination from single-top production at LHC
-- Differential distributions for future colliders
-
----
-
-## Effective Field Theory
-
-Applying EFT methods to high-energy processes:
-- Simultaneous extraction of PDFs and SMEFT parameters
-- Soft-Collinear Effective Theory (SCET) for jets
-- Distinguishing PDF effects from new physics
+ We develop precision QCD predictions for collider observables, spanning jet physics and resummation, small‑*x* dynamics within the CGC framework, and top‑quark phenomenology, leveraging SCET/SMEFT where appropriate. We emphasize systematically improvable calculations with quantified uncertainties, rigorous factorization, and interfaces to global fits and future programs at the LHC and EIC.
 
 ---
 
 ## AI/ML for High-Energy Physics
 
-Developing machine learning methods for theoretical calculations:
-- Neural network emulators for QCD evolution
-- Global fitting of BK Equation using machine learning techniques
+We develop machine‑learning methods for theory calculations and inference, including neural emulators for evolution equations and differentiable pipelines for global fits. These tools accelerate high‑fidelity predictions and enable principled uncertainty propagation and sensitivity studies in collider phenomenology.
 
 ---
 
