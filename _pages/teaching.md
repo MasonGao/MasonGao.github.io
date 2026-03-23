@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Teaching
-page_title: 教学
 permalink: /teaching/
 ---
 
