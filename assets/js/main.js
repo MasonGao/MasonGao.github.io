@@ -3,9 +3,7 @@
 document.addEventListener('DOMContentLoaded', function() {
   // Mobile menu toggle
   const navTrigger = document.getElementById('nav-trigger');
-  const trigger = document.querySelector('.trigger');
-  
-  if (navTrigger && trigger) {
+  if (navTrigger) {
     document.addEventListener('click', function(e) {
       if (!e.target.closest('.site-nav')) {
         navTrigger.checked = false;

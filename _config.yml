@@ -1,7 +1,6 @@
 # Site settings
 title: Meisen Gao Group
 first_name: Meisen
-middle_name: 
 last_name: Gao
 email: msgao@ecust.edu.cn
 description: > # this means to ignore newlines until next field
@@ -15,35 +14,13 @@ baseurl: # leave blank for user pages
 lang: en
 timezone: Asia/Shanghai
 
-# Profile settings
-profile:
-  align: right
-  image: # Leave empty if no photo
-  image_circular: false
-  address: >
-    <p>Room 315, School of Physics</p>
-    <p>ECUST (Xuhui Campus)</p>
-    <p>Shanghai, China</p>
-
-# Academic position
-position: Lecturer
-affiliation: School of Physics, East China University of Science and Technology (ECUST)
-
 # Social links
 github_username: MasonGao
 scholar_userid: # your Google Scholar ID
 orcid_id: # your ORCID ID
-researchgate_username: # your ResearchGate username
-arxiv_username: # your arXiv author ID
 
 # News settings
 news_limit: 5
-
-# Collections
-collections:
-  news:
-    output: true
-    permalink: /news/:year/:month/:day/:title/
 
 # Jekyll settings
 markdown: kramdown
@@ -60,34 +37,15 @@ kramdown:
 # Includes & Excludes
 include: ['_pages']
 exclude:
-  - bin/
   - Gemfile
   - Gemfile.lock
   - vendor
 
 # Plugins (minimal for fast loading)
 plugins:
-  - jekyll-paginate-v2
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
-
-# Jekyll Scholar settings (disabled for speed, uncomment if needed)
-# scholar:
-#   style: apa
-#   locale: en
-#   source: /_bibliography/
-#   bibliography: papers.bib
-
-# Pagination
-pagination:
-  enabled: true
-  per_page: 5
-  permalink: '/page/:num/'
-  title: ':title - page :num'
-  limit: 0
-  sort_field: 'date'
-  sort_reverse: true
 
 # Optimization
 sass:
@@ -95,11 +53,6 @@ sass:
 
 # Defaults
 defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
   - scope:
       path: ""
     values:

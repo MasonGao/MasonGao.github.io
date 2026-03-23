@@ -4,41 +4,6 @@ title: People
 permalink: /people/
 ---
 
-<style>
-.page-title {
-  font-size: 1.5rem !important;
-  font-weight: 600;
-  margin-bottom: 0.5rem !important;
-}
-
-.page-header {
-  margin-bottom: 0.5rem !important;
-}
-
-.page-content {
-  margin-top: 0 !important;
-  padding-top: 0.5rem !important; /* reduce gap below title without moving title */
-}
-
-.page-content > *:first-child {
-  margin-top: 0.1rem !important;
-}
-
-h2 {
-  font-size: 1.2rem !important;
-  font-weight: 600;
-  margin-top: 0.25rem !important;
-  margin-bottom: 1rem;
-}
-
-h3 {
-  font-size: 1.1rem !important;
-  font-weight: 600;
-  margin-top: 1.5rem;
-  margin-bottom: 0.8rem;
-}
-</style>
-
 ## Principal Investigator
 
 ### [Meisen Gao](/cv/)
